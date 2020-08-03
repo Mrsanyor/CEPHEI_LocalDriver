@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="6ECAC2B3915A46B990B5795159B958CC108646EB570019F50E5C9C86017C7B52F43E241B6B7281B0A7A04BD51F7A5D7AD45304AA23520B55F2C77EA99DFB1071" Timestamp="1D660FFD47ED5D2" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="Boolean" Id="999ef859729f4604ae14f43ddfcc4000" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="7204d483f04a44cc9c0f813593bb7e2a" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="e973dd1d9eef4308a1ce17cb74dc6abd" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="e14329e2e9704fed911b2fd4d74674e5" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="Boolean" Id="de31126f9efc45c2a98bb736b7486718" Name="selector">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="16f500f9cbf34a50b582f147263dbfa0" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="3ec38293ad104402805ed474e794b118" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="e46a8b158a0743b68890698651e3ac4c" Name="selector.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="d9d53412f94a4e0d8a3ce083fa79ffdf" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="b3e7d5c416ab420888521a2d3cb0a3ab" xmlns="http://www.ni.com/MocCommon">
+					<Switch BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]72" Id="b70c1a4e25e64942a387cfb4ce4a96e9" IsReadOnly="[bool]False" Label="[UIModel]c964e397a8af4698b6a8d6100cf64a6f" Left="[float]100" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]0" Top="[float]100" TrueContent="[string]On" Value="{DataItemBinding Id=de31126f9efc45c2a98bb736b7486718}" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<Label Id="c964e397a8af4698b6a8d6100cf64a6f" LabelOwner="[UIModel]b70c1a4e25e64942a387cfb4ce4a96e9" Left="[float]100" Text="[string]selector" Top="[float]80" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

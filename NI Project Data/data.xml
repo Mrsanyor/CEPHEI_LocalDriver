@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="F2AFAAA516043A4AD43D692B10B3606179901C427AE3F292846573B5E900637247C534A257EBC0163B40F90E73F38D16AA749FB8564B7406496EF9CE61B0F5FA" Timestamp="1D65F75B461E8D3" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<DataIndexDefinition xmlns="http://www.ni.com/Data" />
+	<EnvoyManagerFile Id="6075caf6f2f148b68a07a0ba2dfd2a7b" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="ab9a029a494a48af80093e974d077174" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="1c9e13bf07a64d00bba3f5a6cb13e156" Name="data.xml" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Id="86a989037f2a4f8f9c1ebd4b2b5011f2" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root">
+				<TDMSRootDefinition StoragePath="Data-2020-07-17 100510 090.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="6d9f46fe2d5642798cf9a20006ca3613" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP">
+					<TDMSGroupDefinition GroupName="Capture 1" Source="Main.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="07/17/2020 10:05:10" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="aae88b1c61ca4b7991f4a9b0753dd982" ModelDefinitionType="TDMSDataItemDefinition" Name="Exit">
+						<TDMSDataItemDefinition DataName="Exit" DataType="Boolean" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="7550199390534ddfa26e1b629700b0a7" ModelDefinitionType="TDMSDataItemDefinition" Name="TEMP button">
+						<TDMSDataItemDefinition DataName="TEMP button" DataType="Boolean" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="917c3c0452634bb6b98be04b6999767e" ModelDefinitionType="TDMSDataItemDefinition" Name="LUX button">
+						<TDMSDataItemDefinition DataName="LUX button" DataType="Boolean" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="b92021bf5d4c4e94918e360b896712cd" ModelDefinitionType="TDMSDataItemDefinition" Name="Display &lt;Replace Me&gt;">
+						<TDMSDataItemDefinition DataName="Display &lt;Replace Me&gt;" DataType="String" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="9b7ff52fb02b4e5492bd23ba95a13bc1" ModelDefinitionType="TDMSDataItemDefinition" Name="VISA Resource Name">
+						<TDMSDataItemDefinition DataName="VISA Resource Name" DataType=":UDR:TagRefnum|NI::VISA::Visa.udr::Instr" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="a5acde56309247f6a6555f790067453e" ModelDefinitionType="TDMSDataItemDefinition" Name="read buffer">
+						<TDMSDataItemDefinition DataName="read buffer" DataType="String" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="9560f5c9a65f4b2ab81e30126a827d70" ModelDefinitionType="TDMSDataItemDefinition" Name="Initialize VISA">
+						<TDMSDataItemDefinition DataName="Initialize VISA" DataType="Boolean" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="e6b26613c93e49ed8fe67fcd391f5a59" ModelDefinitionType="TDMSDataItemDefinition" Name="TEMP">
+						<TDMSDataItemDefinition DataName="TEMP" DataType="@8a8f86b79be84d8ba9c6d3af64e0b567" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="c1e436da8e1344d9a95feaa426693908" ModelDefinitionType="TDMSDataItemDefinition" Name="LUX">
+						<TDMSDataItemDefinition DataName="LUX" DataType="@8a8f86b79be84d8ba9c6d3af64e0b567" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="e6782f8443174fe88e89b5d6e3c9012c" ModelDefinitionType="TDMSDataItemDefinition" Name="CMD">
+						<TDMSDataItemDefinition DataName="CMD" DataType="@8a8f86b79be84d8ba9c6d3af64e0b567" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="b607954a06a542cbbeab27430070ebc0" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_2">
+				<TDMSRootDefinition StoragePath="Data-2020-07-21 154339 239.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="a528d380f91f46c9ad7c4c594b48589f" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_2">
+					<TDMSGroupDefinition GroupName="Capture 2" Source="Main.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="07/21/2020 15:43:39" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="6683d0907c447dba6749eafba5372bd" ModelDefinitionType="TDMSDataItemDefinition" Name="VISA Resource Name_2">
+						<TDMSDataItemDefinition DataName="VISA Resource Name_2" DataType=":UDR:TagRefnum|NI::VISA::Visa.udr::Instr" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="8a8f86b79be84d8ba9c6d3af64e0b567">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Timestamp" DataType="Timestamp" />
+					<Field FieldAccessPolicy="ReadWrite" Name="DATA" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="0F0149EC21E2B22BAA0882FDF2ABF7F96B685B0DFFDA7A6C5C9A832429C3DE55138BB66979198A3866D21AE4B81C313F2D1A5EDBA6AF96707FFB6081915392F1" Timestamp="1D668A1D307732F" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Native target compiler" Name="http://www.ni.com/LabVIEW.NativeBackEndCompiler" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="844aa6b0c8a549bc994243aed67b735c" RootNamespaceId="e892dffc4e0143b7bd75e82f8cc784bd" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="df100ce6dad5486696d63374db5c5ef7" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="d44e0017efa74de69d65b1e9569c7ef0" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="b646a60e3594413a8d94b26c2c837f8a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="c037f5631744e0294bdbc449c0c05c9" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="Application" Id="df60e4c053ef4180a65750d6ed5cacdc" Name="Configuration1">
+			<CompilerSymbolTable Id="91f88dee4dcb44adac687929ffcf56f7" xmlns="http://www.ni.com/PlatformFramework" />
+			<NativeApplicationOutputTypeProperties Id="79df0528ab31424ca16f227779df1858" xmlns="http://www.ni.com/LabVIEW.NativeBackEndCompiler" />
+			<ComponentItemProperties AssociatedEnvoyId="36281ca2186f4ee69865d7b6c0c43e3b" Id="ae76dc5f21044879b6cda3e616604f61" TopLevel="True" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="3a4d1dab518243179baf704ef3b16547" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="2b428aba28274143af4ee415951ea838" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="83995f0f25a041faa0d2561a2261581d" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="e892dffc4e0143b7bd75e82f8cc784bd" Name="Queued Message Handler">
+				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="36281ca2186f4ee69865d7b6c0c43e3b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Main.gvi" StoragePath="Main.gvi">
+					<ContentReference Bindings="IAutoCreateContentReference" ContentIdentifier="33db986f366b4c2387e141bbcc0b4e64" Id="e33ebc6bedce4a6f8d5ff7a1501a1098" Name="CCodeNodeDll-33db986f366b4c2387e141bbcc0b4e64" />
+				</SourceFileReference>
+				<SourceFileReference Id="c715300e0b1e414390e5ab81251fe85f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function.gvi" StoragePath="Function.gvi" />
+				<SourceFileReference Id="89b80e725ad3445384e4d71caff0b0de" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read_Write_VISA.gvi" StoragePath="Read_Write_VISA.gvi" />
+				<SourceFileReference Bindings="EnvoyManager" Id="fbe25fbe7ae24402b71046ef99bf16c0" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="TAG.gtype" StoragePath="TAG.gtype\TAG.gtype" />
+				<SourceFileReference Id="ba9d9ef1358145f99d089e2b16167daa" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="ResistanceDOalgoritm.gvi" StoragePath="ResistanceDOalgoritm.gvi" />
+				<SourceFileReference Id="6e905807d6a9482aa336c198d76bf72f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="CMD_Iteration.gvi" StoragePath="CMD_Iteration.gvi" />
+				<SourceFileReference Id="6c1df439c7f48f08417f9578391da32" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="PV_switch.gvi" StoragePath="PV_switch.gvi" />
+				<SourceFileReference Bindings="EnvoyManager" Id="6fc92c69aecb4629935a0d1152871c0e" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="selector.gtype" StoragePath="selector.gtype\selector.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="d748e4c2922e44568394aed7b767c5e2" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="data.gtype" StoragePath="data.gtype\data.gtype" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="80134c33b89e46a2b8f6e09d81a9c278" Name="Queued Message Handler.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="df60e4c053ef4180a65750d6ed5cacdc" Id="659048991a9749228d378b1de00ba583" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
