@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="0F0149EC21E2B22BAA0882FDF2ABF7F96B685B0DFFDA7A6C5C9A832429C3DE55138BB66979198A3866D21AE4B81C313F2D1A5EDBA6AF96707FFB6081915392F1" Timestamp="1D668A1D307732F" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="5B5798BBEF1FC2528EDC34D0C0FC0310461CDC4A6B8C4DA4F08E277D3AEF1958A943C1B1FE54A615BC73775A14FB2309FFD886E3B614B370FCD50825E37EBB2D" Timestamp="1D66A87A9A55C5A" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Native target compiler" Name="http://www.ni.com/LabVIEW.NativeBackEndCompiler" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
@@ -27,6 +27,7 @@
 			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="e892dffc4e0143b7bd75e82f8cc784bd" Name="Queued Message Handler">
 				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="36281ca2186f4ee69865d7b6c0c43e3b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Main.gvi" StoragePath="Main.gvi">
 					<ContentReference Bindings="IAutoCreateContentReference" ContentIdentifier="33db986f366b4c2387e141bbcc0b4e64" Id="e33ebc6bedce4a6f8d5ff7a1501a1098" Name="CCodeNodeDll-33db986f366b4c2387e141bbcc0b4e64" />
+					<ContentReference Bindings="IAutoCreateContentReference" ContentIdentifier="414234826ed449a796566bbf3955db82" Id="ac07c0a03b014e4d84e7a1bd6dbe7f7c" Name="CCodeNodeDll-414234826ed449a796566bbf3955db82" />
 				</SourceFileReference>
 				<SourceFileReference Id="c715300e0b1e414390e5ab81251fe85f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function.gvi" StoragePath="Function.gvi" />
 				<SourceFileReference Id="89b80e725ad3445384e4d71caff0b0de" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read_Write_VISA.gvi" StoragePath="Read_Write_VISA.gvi" />
