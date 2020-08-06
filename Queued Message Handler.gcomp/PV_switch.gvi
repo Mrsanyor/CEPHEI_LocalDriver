@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="2064714F69191F92ED483B7B067D6095BE02E0E8E0591D1D081B3DF5C7CB965113A5F13B5BEB40CD3230B7F84288710D958AFBD386AD4186EF4E11830EF67088" Timestamp="1D669BF7A20BF90" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="04F45D3738BD108F91C69B95216D7E81BB17A96CAB667A101F1887797A5B68E62619CD7488F3AE503098CC9B2CFDA6EA6BD28F87FB676CFBF831DBAD893A1F69" Timestamp="1D66C0C1B251D2D" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -20,14 +20,14 @@
 				</IconTemplate>
 			</IconPanel>
 		</Icon>
-		<ConnectorPane Height="40" Id="a73ef8f2f054ab0beae418b4c84f86a" ListViewHeight="100" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+		<ConnectorPane Height="40" Id="a73ef8f2f054ab0beae418b4c84f86a" ListViewHeight="115" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
 			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="a8f62a4ae80d45feabdc562ddf990a80" />
 			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 50" Parameter="f49ca6dadc344dad8494bd397b803d78" />
 			<ConnectorPaneTerminal Hotspot="0 25" />
 			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 65" Parameter="243b9df6bba1426fb3cff73dbdff1dfa" />
 			<ConnectorPaneTerminal Hotspot="15 0" />
 			<ConnectorPaneTerminal Hotspot="25 0" />
-			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 95" Parameter="d03d8f3e49fa4b55b073df8b06b9a1bd" />
 			<ConnectorPaneTerminal Hotspot="40 15" />
 			<ConnectorPaneTerminal Hotspot="40 25" />
 			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 80" Parameter="a7aa834bc7ef4d828da7c63a762d9acf" />
@@ -35,7 +35,14 @@
 			<ConnectorPaneTerminal Hotspot="25 40" />
 		</ConnectorPane>
 		<DiagramUnplacedItems Id="76abc1d8b0b94d99b09cd689f029d7fc" xmlns="http://www.ni.com/MocCommon" />
-		<FrontPanelUnplacedItems Id="953956b99006460ca7c6469ecb447051" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<FrontPanelUnplacedItems Id="953956b99006460ca7c6469ecb447051" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0">
+			<IONameControl AllowUndefinedValues="[bool]True" BaseName="[string]Instr" DataType="[Type]:UDR:TagRefnum|NI::VISA::Visa.udr::Instr" Enabled="[bool]True" Height="[float]24" Id="eada203a96c14fc988f37a932b24bfb1" IsReadOnly="[bool]True" Label="[UIModel]43283f0f9840459db97307d8e1dabc0e" Left="[float]100" MinHeight="[float]24" SelectedResource="{DataItemBinding Id=d03d8f3e49fa4b55b073df8b06b9a1bd}" ShowType="[bool]False" ShowUserRefresh="[bool]True" TabIndex="[int]0" Top="[float]116" Width="[float]175" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="NI::VISA::Visa.udr::Instr::ControlDefinition" />
+				</p.TypeDefinitionTargets>
+			</IONameControl>
+			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="43283f0f9840459db97307d8e1dabc0e" LabelOwner="[UIModel]eada203a96c14fc988f37a932b24bfb1" Left="[float]100" Text="[string]VISA_OUT" Top="[float]96" Width="[float]42" xmlns="http://www.ni.com/PanelCommon" />
+		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="54324cd09427443a920b058639c685c7">
 			<CaseStructure Bounds="205 500 217 100" DataType="String" Default="342ac7369d234d8795ba691db936a2e7" Id="b6e37a3e52fa41b6b2bb634d273f1c21" Selected="2c582345f50b4aaa8fda2a20b5ed09d1" UserSelectorBounds="20 0 178 17">
 				<CaseStructure.Case Bounds="5 5 207 90" Id="2c582345f50b4aaa8fda2a20b5ed09d1" Pattern="&quot;Connect&quot;">
@@ -48,7 +55,7 @@
 						<ArrayBehavior ElementType="String" IndexEditorWidth="42" VisibleRows="2">
 							<p.DefaultElementValue>@DO 21 0#</p.DefaultElementValue>
 						</ArrayBehavior>
-						<Literal Bounds="48 2 89 21" DataType="String" Id="d344364e492c4b30a6f07420d1e28648">
+						<Literal Bounds="48 25 89 21" DataType="String" Id="d344364e492c4b30a6f07420d1e28648">
 							<StringBehavior TextDisplayMode="Default" />
 						</Literal>
 					</ArrayLiteral>
@@ -116,7 +123,7 @@
 				<CaseStructure.Tunnel Bounds="208 85 13 10" Docking="Right" Id="b6020057ddb4eb7913b6b1b5ec129e6" Terminals="b6e37a3e52fa41b6b2bb634d273f1c21=477395668e5e4413b3cb189686915a79, 2c582345f50b4aaa8fda2a20b5ed09d1=851c994f03a34e3aa2a8e894352a065f, 342ac7369d234d8795ba691db936a2e7=87d6f82ae7714f808f786b12700de672" />
 			</CaseStructure>
 			<Wire Id="ca66946fd4544320bd9d8b4c5acfe37a" Joints="N(3aeecfe1056e44c9bcf1c73ae23feacb:Value)|(133,560) N(e033f870748c4d29a4db7f7a2711b664:b6e37a3e52fa41b6b2bb634d273f1c21)|(201,560)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="fda6d9e1b62f48ca9152cfb7aeebc23f" Joints="N(762dff3fc6534e5d9bb6914039a6d894:Value)|(130,525) N(5076bef6c0e24319bcfd758a91fd0add:b6e37a3e52fa41b6b2bb634d273f1c21)|(201,525)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="fda6d9e1b62f48ca9152cfb7aeebc23f" Joints="N(762dff3fc6534e5d9bb6914039a6d894:Value)|(130,525) h(40) B(1) N(5076bef6c0e24319bcfd758a91fd0add:b6e37a3e52fa41b6b2bb634d273f1c21)|(201,525) B(1) v(-50) h(339) v(50) N(d11ff6054fe94e9a977d0261321a372d:Value)|(518,525)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="477395668e5e4413b3cb189686915a79" Joints="N(b6020057ddb4eb7913b6b1b5ec129e6:b6e37a3e52fa41b6b2bb634d273f1c21)|(426,590) N(250bc0a2503f4519b12f425c6c32894b:Value)|(443,590)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="1103e023e88e42f3ba26931d9b3a4963" Joints="N(ac9f8d18c3ba4c798cb16ba36892ef3b:Value)|(133,590) N(c6f08ceb9586466ba0b6c389547b06f7:b6e37a3e52fa41b6b2bb634d273f1c21)|(201,590)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="440 585 40 15" DataItem="a7aa834bc7ef4d828da7c63a762d9acf" Id="250bc0a2503f4519b12f425c6c32894b" Label="b209c474264e4140ada7e5fbc5cc66f7" xmlns="http://www.ni.com/MocCommon">
@@ -142,6 +149,12 @@
 			</NodeLabel>
 			<NodeLabel AttachedTo="3aeecfe1056e44c9bcf1c73ae23feacb" Bounds="59 555 29 14" Id="da6efb2a3c014ad587f2799bedba7e40" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>CTRL</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="515 520 40 15" DataItem="d03d8f3e49fa4b55b073df8b06b9a1bd" Id="d11ff6054fe94e9a977d0261321a372d" Label="d06698afcb5041238757911432f22a07" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType=":UDR:TagRefnum|NI::VISA::Visa.udr::Instr" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="d11ff6054fe94e9a977d0261321a372d" Bounds="560 520 58 14" Id="d06698afcb5041238757911432f22a07" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>VISA_OUT</p.Text>
 			</NodeLabel>
 		</BlockDiagram>
 		<NativeFrontPanel Background="[SMSolidColorBrush]#ffffffff" Height="[float]1600" HtmlPanel="[bool]False" Id="768c152e1ff9472b9af1359f6a82ce7b" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
@@ -211,6 +224,12 @@
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="1" DataType="String" Id="f49ca6dadc344dad8494bd397b803d78" Name="CTRL" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>Disconnect</p.DefaultValue>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="1" DataType=":UDR:TagRefnum|NI::VISA::Visa.udr::Instr" Id="d03d8f3e49fa4b55b073df8b06b9a1bd" Name="VISA_OUT" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::VISA::Visa.udr::Instr" />
+			</p.TypeDefinitionTargets>
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
