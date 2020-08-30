@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="6A6002DBDFF5366E8DCD340F3BB24CF326949AC3D6C155FF5D0F6ACE625F9E5DF7EB61BBA1715A2CD31E46957D34B5AA164B1E07F303EF09EEED41B7D0760685" Timestamp="1D67A480D8D5558" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="5B5798BBEF1FC2528EDC34D0C0FC0310461CDC4A6B8C4DA4F08E277D3AEF1958A943C1B1FE54A615BC73775A14FB2309FFD886E3B614B370FCD50825E37EBB2D" Timestamp="1D66A87A9A55C5A" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Native target compiler" Name="http://www.ni.com/LabVIEW.NativeBackEndCompiler" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
@@ -37,8 +37,6 @@
 				<SourceFileReference Id="6c1df439c7f48f08417f9578391da32" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="PV_switch.gvi" StoragePath="PV_switch.gvi" />
 				<SourceFileReference Bindings="EnvoyManager" Id="6fc92c69aecb4629935a0d1152871c0e" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="selector.gtype" StoragePath="selector.gtype\selector.gtype" />
 				<SourceFileReference Bindings="EnvoyManager" Id="d748e4c2922e44568394aed7b767c5e2" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="data.gtype" StoragePath="data.gtype\data.gtype" />
-				<SourceFileReference Id="fb938518b8c64f53b973f88e2ca64f50" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Send D To Server.gvi" StoragePath="Send D To Server.gvi" />
-				<SourceFileReference Id="842f501c26242c8a7a408c3a42007fa" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Send S To Server.gvi" StoragePath="Send S To Server.gvi" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="80134c33b89e46a2b8f6e09d81a9c278" Name="Queued Message Handler.gcomp" NameTracksFileName="True">
