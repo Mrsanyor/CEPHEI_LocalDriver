@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F2AFAAA516043A4AD43D692B10B3606179901C427AE3F292846573B5E900637247C534A257EBC0163B40F90E73F38D16AA749FB8564B7406496EF9CE61B0F5FA" Timestamp="1D65F75B461E8D3" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="EBD80C2A30D2E60E566324AF0B6A90E3A4F1DA548862459F33F7D2C3A7120AFE0ED9E90C3676633C2D823B93C282E27CBB49F08D31C152E2D2F635B9576A9DCB" Timestamp="1D66FD01BA399E2" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -51,6 +51,15 @@
 					<TDMSGroupDefinition GroupName="Capture 2" Source="Main.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="07/21/2020 15:43:39" xmlns="http://www.ni.com/Data" />
 					<EmbeddedDefinitionReference Id="6683d0907c447dba6749eafba5372bd" ModelDefinitionType="TDMSDataItemDefinition" Name="VISA Resource Name_2">
 						<TDMSDataItemDefinition DataName="VISA Resource Name_2" DataType=":UDR:TagRefnum|NI::VISA::Visa.udr::Instr" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="3b0986cb57a7408395530c2f6d67dcb1" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_3">
+				<TDMSRootDefinition StoragePath="Data-2020-08-11 111105 614.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="45af2c4101d14578b34c88a4f16d7a9c" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_3">
+					<TDMSGroupDefinition GroupName="Capture 3" Source="Probe" Timestamp="08/11/2020 11:11:05" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="6b1ba05c4aac4006b1519de553920e73" ModelDefinitionType="TDMSDataItemDefinition" Name="Probe data">
+						<TDMSDataItemDefinition DataName="Probe data" DataType="Double[]" xmlns="http://www.ni.com/Data" />
 					</EmbeddedDefinitionReference>
 				</EmbeddedDefinitionReference>
 			</EmbeddedDefinitionReference>
