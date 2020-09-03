@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="EBD80C2A30D2E60E566324AF0B6A90E3A4F1DA548862459F33F7D2C3A7120AFE0ED9E90C3676633C2D823B93C282E27CBB49F08D31C152E2D2F635B9576A9DCB" Timestamp="1D66FD01BA399E2" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="7CCADC4F01A049165ECCBDC30E364BFD7703B1A5A75FBC33104A605301FA45622ECDC87A3AFBAA8F7DE64E368E565D0F66C5F24FB5442E4B75737823302361E7" Timestamp="1D6821B01759090" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -60,6 +60,15 @@
 					<TDMSGroupDefinition GroupName="Capture 3" Source="Probe" Timestamp="08/11/2020 11:11:05" xmlns="http://www.ni.com/Data" />
 					<EmbeddedDefinitionReference Id="6b1ba05c4aac4006b1519de553920e73" ModelDefinitionType="TDMSDataItemDefinition" Name="Probe data">
 						<TDMSDataItemDefinition DataName="Probe data" DataType="Double[]" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="fb03d314857b4e1c90d741a3d5d450f0" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_4">
+				<TDMSRootDefinition StoragePath="Data-2020-09-03 175235 112.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="9e1f8e31e3c8411ebf6dfc28860bffb2" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_4">
+					<TDMSGroupDefinition GroupName="Capture 4" Source="Main.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="09/03/2020 17:52:35" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="fcd8f0bc704949ceae2aba1b1832d7ee" ModelDefinitionType="TDMSDataItemDefinition" Name="String Constant">
+						<TDMSDataItemDefinition DataName="String Constant" DataType="String" xmlns="http://www.ni.com/Data" />
 					</EmbeddedDefinitionReference>
 				</EmbeddedDefinitionReference>
 			</EmbeddedDefinitionReference>

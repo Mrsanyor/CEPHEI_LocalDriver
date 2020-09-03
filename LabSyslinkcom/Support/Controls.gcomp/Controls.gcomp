@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="E34588CB80310F1C4199C0E31DF198E59009E7A1C8096FA6B4163C12ADADDA4B54DC04E4C66CD955C9A1787162683F553CB0D96B71D836E5DE103BF0BEBF05EB" Timestamp="1D6048AC2761D41" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.49573" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.49573" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.49573" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.49573" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="23dc20859a7843b1aa389a6e4284416e" RootNamespaceId="2900a97215454424a8c48c93a1b3fe80" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="3448a7669edc42c881bcc2da0aefd504" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="69ac6facbbab4bea81a5aa79791f2de7" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="b80023e6ac764ed7b034c00911dfbc04" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="eda929d93fa94ff3bb11bd911b87ee6e" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="2c842930a334378a1d297eeaa363df7" Name="Configuration1">
+			<CompilerSymbolTable Id="16709ebba2474148a8a116468110c3c4" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="9161b823d1b543c199443b50d96f1b98" Exported="True" Id="f8cebf3f4be242e99e43d0488809a599" />
+			<GLibraryProperties Id="73e582dcb1854bd9b255ac8a3c204c09" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="8349fba730cb491cbce0c2ee386abe63" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="2dcbb977b71841b3b9c925117abb9db5" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="a05afc6d6e4f4938bf209de801a89aa8" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="2900a97215454424a8c48c93a1b3fe80" Name="Controls">
+				<SourceFileReference Bindings="EnvoyManager,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.GType,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="9161b823d1b543c199443b50d96f1b98" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="UI Data.gtype" StoragePath="UI Data.gtype\UI Data.gtype" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="2eb97e2ab967400097f846a4e2dfabf6" Name="Controls.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="2c842930a334378a1d297eeaa363df7" Id="66e64e6cec16479d906285b5bedf3c5a" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
