@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="00432160BE35812E36426FA691A3559E435AE8797F4E901248BE5753DE8A58567ADF3A3CE29C63A80BA31E42463E526B9DF5E75B5DD0805F066904BB84997649" Timestamp="1D66C1DF75EEE98" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="C26B96E593E2DC580B9F6ABCB564327D67EEBC4AADB775885914F8F4D1CC9BBDFA84BEEBF7CA2A7E1E92B35910B5D1B339521100E0F83641DACF2F65D6F566C8" Timestamp="1D682C60E8025AA" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -36,16 +36,16 @@
 		</ConnectorPane>
 		<DiagramUnplacedItems Id="ab75ff61e59a49ec891d1d3d1a1a6875" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Id="67b36cd024e24a17874cca29b832b5c3" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0">
-			<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@3c6f589a92d84fde8ba8df20d3fcb741" Height="[float]96" Id="d9a1631c2fe540598dc3838d1f51ad2b" IsTabStop="[bool]True" Label="[UIModel]a93e6e562eb44340bca1480949adad11" LabelLinked="[bool]True" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=e8e8b7c6e2eb401e9d278883c929ab27}" Width="[float]189" p4:ControlDefinitionChecksum="47ZPLb94EFO0hAo1819Y+Z4gpeO6JFm+ktQBGLugSy4=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+			<Cluster BaseName="[string]Cluster Arduino Reply" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@38599b55d1634c4c9f6e4273186e7975" Height="[float]52" Id="d9a1631c2fe540598dc3838d1f51ad2b" IsTabStop="[bool]True" Label="[UIModel]a93e6e562eb44340bca1480949adad11" LabelLinked="[bool]True" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=e8e8b7c6e2eb401e9d278883c929ab27}" Width="[float]346" p4:ControlDefinitionChecksum="xcai0NE+iq1cRDv47hvxqmHHeQ7xI87wv78OD4jolUM=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
 				<p4:p.TypeDefinitionTargets>
-					<p4:TypeDefinitionTarget TargetName="Queued Message Handler::TAG.gtype::ControlDefinition" />
+					<p4:TypeDefinitionTarget TargetName="Queued Message Handler::ArduinoReply.gtype::ControlDefinition" />
 				</p4:p.TypeDefinitionTargets>
-				<TimeStampTextBox BaseName="[string]Timestamp" Height="[float]24" Id="a1f27b331ba64113828200a3b2a0386a" InteractionMode="[TimeStampTextBoxInteractionModes]ReadOnly" Label="[UIModel]a183b232c026476e8151f136057df37c" Left="[float]4" Maximum="[PrecisionDateTime]3000-12-31T21:00:00.0Z" Minimum="[PrecisionDateTime]1599-12-31T21:00:00.0Z" TabIndex="[int]0" Top="[float]20" Value="{ClusterBinding FieldName=Timestamp}" Width="[float]176" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-				<p4:Label Height="[float]16" Id="a183b232c026476e8151f136057df37c" LabelOwner="[UIModel]a1f27b331ba64113828200a3b2a0386a" Left="[float]4" Text="[string]Timestamp" Top="[float]0" Width="[float]58" />
-				<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="1a5c8726a39f484d8e09c612db024c8c" IsReadOnly="[bool]True" Label="[UIModel]e97057ae70d465b9d6bf42531328586" Left="[float]7" TabIndex="[int]1" Text="{ClusterBinding FieldName=DATA}" Top="[float]64" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]147" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-				<p4:Label Height="[float]16" Id="e97057ae70d465b9d6bf42531328586" LabelOwner="[UIModel]1a5c8726a39f484d8e09c612db024c8c" Left="[float]7" Text="[string]DATA" Top="[float]44" Width="[float]28" />
+				<TimeStampTextBox BaseName="[string]Timestamp" Height="[float]24" Id="a16063fcec2244c4a3cb54ea43d3d483" InteractionMode="[TimeStampTextBoxInteractionModes]ReadOnly" Label="[UIModel]fda23753e7054fb286b04de16b2f1261" Left="[float]4" Maximum="[PrecisionDateTime]3000-12-31T21:00:00.0Z" Minimum="[PrecisionDateTime]1599-12-31T21:00:00.0Z" TabIndex="[int]0" Top="[float]20" Value="{ClusterBinding FieldName=Timestamp}" Width="[float]176" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="fda23753e7054fb286b04de16b2f1261" LabelOwner="[UIModel]a16063fcec2244c4a3cb54ea43d3d483" Left="[float]4" Text="[string]Timestamp" Top="[float]0" Width="[float]58" />
+				<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="68a0b9b679704d47acf8c70f6e60faa5" IsReadOnly="[bool]True" Label="[UIModel]b15cfb5b5804b278db7035888bac30d" Left="[float]191" TabIndex="[int]1" Text="{ClusterBinding FieldName=DATA}" Top="[float]20" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]147" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="b15cfb5b5804b278db7035888bac30d" LabelOwner="[UIModel]68a0b9b679704d47acf8c70f6e60faa5" Left="[float]191" Text="[string]DATA" Top="[float]0" Width="[float]28" />
 			</Cluster>
-			<Label Height="[float]16" Id="a93e6e562eb44340bca1480949adad11" LabelOwner="[UIModel]d9a1631c2fe540598dc3838d1f51ad2b" Left="[float]100" Text="[string]TAG" Top="[float]80" Width="[float]37" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="a93e6e562eb44340bca1480949adad11" LabelOwner="[UIModel]d9a1631c2fe540598dc3838d1f51ad2b" Left="[float]100" Text="[string]Arduino_Reply" Top="[float]80" Width="[float]115" xmlns="http://www.ni.com/PanelCommon" />
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="f608259cceae4f89934594d6ada3fc1f">
 			<Wire Id="b6526fe8700842f7a19614e2eda3fd9a" Joints="N(8ca25b080f8d40b183159fc0a33b15fc:Value)|(430,545) h(5) v(-100) N(442b333125b43f69ce50142f846cf10:L1)|(440,445)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -178,16 +178,16 @@
 			<NodeLabel AttachedTo="6a85dd7a61e84bf18715bd48a4399463" Bounds="1080 425 45 14" Id="9a70e287ea454534a349f42dce26cf7d" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>OUTPUT</p.Text>
 			</NodeLabel>
-			<GetCurrentTime Bounds="840 480 35 30" Id="f7298aeeb3b143aab104299247386ae9" />
+			<GetCurrentTime Bounds="835 480 35 30" Id="f7298aeeb3b143aab104299247386ae9" />
 			<DataAccessor Bounds="1035 480 40 15" DataItem="e8e8b7c6e2eb401e9d278883c929ab27" Id="62a407d247e5455ea0bd784858da8fab" Label="e30e4d2083b9462c84488cb99165f0c7" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@3c6f589a92d84fde8ba8df20d3fcb741" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@38599b55d1634c4c9f6e4273186e7975" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="62a407d247e5455ea0bd784858da8fab" Bounds="1080 480 23 14" Id="e30e4d2083b9462c84488cb99165f0c7" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>TAG</p.Text>
+			<NodeLabel AttachedTo="62a407d247e5455ea0bd784858da8fab" Bounds="1080 480 80 14" Id="e30e4d2083b9462c84488cb99165f0c7" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Arduino_Reply</p.Text>
 			</NodeLabel>
 			<BuildCluster Bounds="930 480 40 20" Id="6ce46aad8ad6410d86a31f8c4ed199f9" Terminals="outCluster=8111b36be9264ac6b8a822b7b20c8839, c0t0v=f913ea679de94afc98b5aafa58f03866, c1t0v=449d89bbadff43bb80db0c82e0e14224" />
 			<Wire Id="8111b36be9264ac6b8a822b7b20c8839" Joints="N(6ce46aad8ad6410d86a31f8c4ed199f9:outCluster)|(970,485) N(62a407d247e5455ea0bd784858da8fab:Value)|(1038,485)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="f913ea679de94afc98b5aafa58f03866" Joints="N(f7298aeeb3b143aab104299247386ae9:current time)|(875,485) N(6ce46aad8ad6410d86a31f8c4ed199f9:c0t0v)|(930,485)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="f913ea679de94afc98b5aafa58f03866" Joints="N(f7298aeeb3b143aab104299247386ae9:current time)|(870,485) N(6ce46aad8ad6410d86a31f8c4ed199f9:c0t0v)|(930,485)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="449d89bbadff43bb80db0c82e0e14224" Joints="N(7f854fe5b4ac43868101de553387861d:R2)|(874,455) h(11) v(40) N(6ce46aad8ad6410d86a31f8c4ed199f9:c1t0v)|(930,495)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<NativeFrontPanel Height="[float]1600" HtmlPanel="[bool]False" Id="aedbe2221ef474db26e114cced1a194" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
@@ -270,7 +270,7 @@
 				<TypeDefinitionTarget TargetName="NI::VISA::Visa.udr::Instr" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<DataItem CallDirection="Output" CallIndex="3" DataType="@3c6f589a92d84fde8ba8df20d3fcb741" Id="e8e8b7c6e2eb401e9d278883c929ab27" Name="TAG" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Output" CallIndex="3" DataType="@38599b55d1634c4c9f6e4273186e7975" Id="e8e8b7c6e2eb401e9d278883c929ab27" Name="Arduino_Reply" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>
 				<Cluster>
 					<Field1>60052752000;0;Utc</Field1>
@@ -278,13 +278,13 @@
 				</Cluster>
 			</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
-				<TypeDefinitionTarget TargetName="Queued Message Handler::TAG.gtype" />
+				<TypeDefinitionTarget TargetName="Queued Message Handler::ArduinoReply.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="3c6f589a92d84fde8ba8df20d3fcb741">
-			<Attributed AttributedType="@e2bd53791fb84e7a9b992e7684ce01ef">
+		<p.TypeReference TypeId="38599b55d1634c4c9f6e4273186e7975">
+			<Attributed AttributedType="@b2ab082def974a4787fb755640b6ae9e">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Queued Message Handler" />
 				</AttributeValues>
@@ -322,8 +322,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="e2bd53791fb84e7a9b992e7684ce01ef">
-			<Typedef TypedefName="TAG.gtype" UnderlyingType="@8a8f86b79be84d8ba9c6d3af64e0b567" />
+		<p.TypeReference TypeId="b2ab082def974a4787fb755640b6ae9e">
+			<Typedef TypedefName="ArduinoReply.gtype" UnderlyingType="@8a8f86b79be84d8ba9c6d3af64e0b567" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="8b4145082eb34e22af7c3d09d34243f4">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Write (Instr, String).gvi" ReturnType="Void" GenericTypeDefinition="Void">

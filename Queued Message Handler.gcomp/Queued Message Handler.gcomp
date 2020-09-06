@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="C88A9480BFC4A549591D3696038D31548EB1319A208272E3880419F8EA45407B017D0C6D5F87861037664A1A008708CD7E7E5560FBB6C0A144CEBAAF9B765474" Timestamp="1D6809902A370B2" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="8544FAA4E6039872E5FDE52E9305C2F8D4179327854F3375511AF665536371F93787F038E0D55C40BFD2B5321971C8BD615A97C7123799958901F8BA2092A14D" Timestamp="1D682C6D3EB0437" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Native target compiler" Name="http://www.ni.com/LabVIEW.NativeBackEndCompiler" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
@@ -31,7 +31,7 @@
 				</SourceFileReference>
 				<SourceFileReference Id="c715300e0b1e414390e5ab81251fe85f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function.gvi" StoragePath="Function.gvi" />
 				<SourceFileReference Id="89b80e725ad3445384e4d71caff0b0de" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read_Write_VISA.gvi" StoragePath="Read_Write_VISA.gvi" />
-				<SourceFileReference Bindings="EnvoyManager" Id="fbe25fbe7ae24402b71046ef99bf16c0" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="TAG.gtype" StoragePath="TAG.gtype\TAG.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="fbe25fbe7ae24402b71046ef99bf16c0" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="ArduinoReply.gtype" StoragePath="ArduinoReply.gtype\ArduinoReply.gtype" />
 				<SourceFileReference Id="ba9d9ef1358145f99d089e2b16167daa" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="ResistanceDOalgoritm.gvi" StoragePath="ResistanceDOalgoritm.gvi" />
 				<SourceFileReference Id="6e905807d6a9482aa336c198d76bf72f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="CMD_Iteration.gvi" StoragePath="CMD_Iteration.gvi" />
 				<SourceFileReference Id="6c1df439c7f48f08417f9578391da32" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="PV_switch.gvi" StoragePath="PV_switch.gvi" />
