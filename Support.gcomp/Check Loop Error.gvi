@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="2CECBFB7D57493C1200942B3A0E063625EB9D66522EC6CC38BBDFB90841AA2538DB4E90B08FC29B66C6F67769D053518004D1CA53E039316A4C6BE2BF6D25D98" Timestamp="1D6048AC2E81964" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="49514180B612B64C0709B50FBA6013CC630EAD541BBA9302E56F12CA6A4D54114F49B565E6C74253945A4AE0E2541D457D37A77FF1EC99B454093C5FC1BEC6F1" Timestamp="1D684477BB2B641" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="8.1.0.49573" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.49573" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.49573" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.49573" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.1.0.49573" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
-		<ApplicationVersionInfo Build="8.1.0.49573" Name="LabVIEW NXG" Version="5.0.0" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" Reentrancy="Stateful" xmlns="http://www.ni.com/LabVIEW.VI">
 		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">Check the 'error to process' to see if its code value matches any of the values in the 'Ignore Errors' array. If so, do nothing. If not, send an "Error" message containing the error data to the Message Handling Loop for further processing. If the "Exit on Error?" input is TRUE, send an "Exit" message to the Message Handling Loop instead.</p.UserDescription>
@@ -68,15 +68,15 @@
 								<p.Data>True</p.Data>
 								<BooleanBehavior />
 							</Literal>
-							<Literal Bounds="42 115 55 15" DataType="String" Id="59" Label="60" xmlns="http://www.ni.com/MocCommon">
+							<Literal Bounds="52 115 45 15" DataType="String" Id="59" Label="60" xmlns="http://www.ni.com/MocCommon">
 								<p.Data>Error</p.Data>
 								<StringBehavior TextDisplayMode="Default" />
 							</Literal>
-							<NodeLabel AttachedTo="59" Bounds="42 94 64 18" Id="60" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<NodeLabel AttachedTo="59" Bounds="52 94 64 18" Id="60" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>Message</p.Text>
 							</NodeLabel>
 							<Literal Bounds="53 85 45 15" DataType="String" Id="61" Label="62" xmlns="http://www.ni.com/MocCommon">
-								<p.Data>Exit</p.Data>
+								<p.Data>Error</p.Data>
 								<StringBehavior TextDisplayMode="Default" />
 							</Literal>
 							<NodeLabel AttachedTo="61" Bounds="53 64 64 18" Id="62" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
@@ -98,7 +98,7 @@
 							<Wire Id="102" Joints="N(53:49)|(4,145) h(206) v(-55) N(139:L2)|(250,90)" xmlns="http://www.ni.com/PlatformFramework" />
 							<Wire Id="103" Joints="N(58:Out)|(375,95) N(56:49)|(386,95)" xmlns="http://www.ni.com/PlatformFramework" />
 							<Wire Id="104" Joints="N(54:49)|(4,70) N(139:L0)|(250,70)" xmlns="http://www.ni.com/PlatformFramework" />
-							<MethodCall Bounds="250 65 40 40" Id="139" ResolveFailedHint="&quot;c:\\p4\\penguin\\lvdist\\branches\\ng\\content\\lv\\templates\\trunk\\8.1\\objects\\content\\lv_r\\Queued Message Handler\\Message Queue.gcomp\\Enqueue Message (Single).gvi&quot;" Signature="@3390aa9fcfb446599be718bc367f6b9c" Target="Message Queue::Enqueue Message (Single).gvi" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="250 65 40 40" Id="139" ResolveFailedHint="&quot;C:\\Users\\Mrsan\\OneDrive\\Documents\\GitHub\\CEPHEI_LocalDriver\\Message Queue.gcomp\\Enqueue Message (Single).gvi&quot;" Signature="@3390aa9fcfb446599be718bc367f6b9c" Target="Message Queue::Enqueue Message (Single).gvi" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="B0" Desc="priority message" />
@@ -143,7 +143,7 @@
 					<Wire Id="110" Joints="N(127:R0)|(70,215) h(15) B(1) N(55:48)|(161,215) B(1) v(70) N(68:element)|(105,285)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="111" Joints="N(68:index of element)|(145,285) N(51:48)|(161,285)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="112" Joints="N(43:40)|(4,115) N(54:48)|(161,115)" xmlns="http://www.ni.com/PlatformFramework" />
-					<MethodCall Bounds="30 210 40 40" Id="127" ResolveFailedHint="&quot;c:\\p4\\penguin\\lvtoolchain\\lvnxgtoolchain\\export\\8.1\\8.1.0f0\\lv_r\\LV\\Addons\\ni\\G\\stdlib-src\\1.0.6.45\\NI.G Core.gcomp\\Error\\Read Error Code.gvi&quot;" Signature="@4ef16283d7904e9fa0fc1d820d4cd18a" Target="NI::G Core::Error::Read Error Code.gvi" xmlns="http://www.ni.com/MocCommon">
+					<MethodCall Bounds="30 210 40 40" Id="127" ResolveFailedHint="Read Error Code.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 5.0.0)" Signature="@4ef16283d7904e9fa0fc1d820d4cd18a" Target="NI::G Core::Error::Read Error Code.gvi" xmlns="http://www.ni.com/MocCommon">
 						<p.MethodDeclaration>
 							<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 								<Parameter Id="L0" Desc="error in" />
@@ -206,7 +206,7 @@
 				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="e566206576b742c8869e8ced582f5741" Label="[UIModel]e99cca19e0614bdfa88b875289903cc2" Left="[float]3" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 				<p4:Label Height="[float]16" Id="e99cca19e0614bdfa88b875289903cc2" LabelOwner="[UIModel]e566206576b742c8869e8ced582f5741" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
 			</Cluster>
-			<Label Height="[float]16" Id="161" LabelOwner="[UIModel]154" Left="[float]157" Text="[string]error to process" Top="[float]210" Width="[float]26" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="161" LabelOwner="[UIModel]154" Left="[float]157" Text="[string]error to process" Top="[float]210" Width="[float]84" xmlns="http://www.ni.com/PanelCommon" />
 			<LED FalseContent="[string]Off" Height="[float]17" Id="93" IsReadOnly="[bool]True" IsTabStop="[bool]True" Label="[UIModel]94" Left="[float]642" Shape="[LEDShape]Round" TabIndex="[int]2" Top="[float]248" TrueContent="[string]On" Value="{DataItemBinding Id=18}" Width="[float]17" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="94" LabelOwner="[UIModel]93" Left="[float]642" Text="[string]error" Top="[float]228" Width="[float]26" xmlns="http://www.ni.com/PanelCommon" />
 			<Button ClickMode="[ClickMode]Press" Height="[float]21" Id="95" IsMomentary="[bool]False" IsReadOnly="[bool]False" IsTabStop="[bool]True" Label="[UIModel]96" Left="[float]420" TabIndex="[int]3" Top="[float]436" Value="{DataItemBinding Id=19}" Width="[float]50" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
