@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="984DCA577DCEB26CE668C7094E84490CD32B0797987413A7D46DA5F908D66EEC41B638D56A6F993B252EC6FF41FEF39655BCE1856A5AB29BD966C60EBD1105D6" Timestamp="1D688345CD22CB6" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@19e67b70c5c0484e81225461d11f7a66" Id="af590e5071b3461f91857e62a785950c" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="1db42802679e4efeb4bc69b98362070d" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="b86527da33154660bfab6aa545c42ee4" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="cb7ee299e3874e7b8a57002cf96b1a79" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem AdaptToDiagramType="True" DataType="@19e67b70c5c0484e81225461d11f7a66" Id="98c2bcb3703d48e596eeb1aa6b896973" Name="Measured Data">
+			<p.DefaultValue>0x0_0x0_0x0_0x0_0x0_</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="87e810d1cd034202b192054ad297b40b" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="e8cd386aa21b4ffdacb43c76cf0f8a2d" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="5d662f8604ce4d9ab6600d03c4a08d36" Name="Measured Data.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="93cbdaf573eb47a58488fd5ed356172d" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Indicator" Id="cebbc9fbc8d84ec391938c017d5227c0" xmlns="http://www.ni.com/MocCommon">
+					<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@19e67b70c5c0484e81225461d11f7a66" Height="[float]249" Id="e95c2690382345328c7293ff821a30b4" Label="[UIModel]572ecacf5b7b45a782c097e57447792e" Left="[float]83" TabIndex="[int]0" Top="[float]108" Value="{DataItemBinding Id=98c2bcb3703d48e596eeb1aa6b896973}" Width="[float]139" xmlns="http://www.ni.com/PanelCommon">
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="69de3c3527474c648e2ef51103862fc3" IsReadOnly="[bool]True" Label="[UIModel]8d993b1b851c4835938c6810534c66ad" Left="[float]8" TabIndex="[int]0" Top="[float]20" Value="{ClusterBinding FieldName=Voltage\,\ V}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="8d993b1b851c4835938c6810534c66ad" LabelOwner="[UIModel]69de3c3527474c648e2ef51103862fc3" Left="[float]8" Text="[string]Voltage, V" Top="[float]0" Width="[float]54" />
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="ea5832abd1354d7fa74ea0163687407f" IsReadOnly="[bool]True" Label="[UIModel]24c4f3b06ec54d2caa8ab0379dad7755" Left="[float]8" TabIndex="[int]1" Top="[float]71" Value="{ClusterBinding FieldName=Current\,\ mA}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="24c4f3b06ec54d2caa8ab0379dad7755" LabelOwner="[UIModel]ea5832abd1354d7fa74ea0163687407f" Left="[float]8" Text="[string]Current, mA" Top="[float]51" Width="[float]64" />
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="a295284af21c412a8e290388fdc5f329" IsReadOnly="[bool]True" Label="[UIModel]ecb6be50b6c840a793f1028ca5cf4413" Left="[float]8" TabIndex="[int]2" Top="[float]160" Value="{ClusterBinding FieldName=Temperature\,\ GradC}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="ecb6be50b6c840a793f1028ca5cf4413" LabelOwner="[UIModel]a295284af21c412a8e290388fdc5f329" Left="[float]8" Text="[string]Temperature, GradC" Top="[float]140" Width="[float]106" />
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="46630f22cc654d469e3ed61a01f7e474" IsReadOnly="[bool]True" Label="[UIModel]448474f97fc349868d7286b132004c5e" Left="[float]10" TabIndex="[int]3" Top="[float]115" Value="{ClusterBinding FieldName=Luminous\ Flux\,\ Lux}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="448474f97fc349868d7286b132004c5e" LabelOwner="[UIModel]46630f22cc654d469e3ed61a01f7e474" Left="[float]10" Text="[string]Luminous Flux, Lux" Top="[float]95" Width="[float]100" />
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="ed73fc5318840e3b4e857fecb67783e" IsReadOnly="[bool]True" Label="[UIModel]45bd305ddd5a4972bcaf988b20c4798e" Left="[float]11" TabIndex="[int]4" Top="[float]212" Value="{ClusterBinding FieldName=Temperature\ IR\,\ GradC}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="45bd305ddd5a4972bcaf988b20c4798e" LabelOwner="[UIModel]ed73fc5318840e3b4e857fecb67783e" Left="[float]11" Text="[string]Temperature IR, GradC" Top="[float]192" Width="[float]120" />
+					</Cluster>
+					<Label Height="[float]16" Id="572ecacf5b7b45a782c097e57447792e" LabelOwner="[UIModel]e95c2690382345328c7293ff821a30b4" Left="[float]83" Text="[string]Measured Data" Top="[float]88" Width="[float]81" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="19e67b70c5c0484e81225461d11f7a66">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Voltage, V" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Current, mA" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Luminous Flux, Lux" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Temperature, GradC" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Temperature IR, GradC" DataType="Double" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

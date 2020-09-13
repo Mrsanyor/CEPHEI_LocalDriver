@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="04F45D3738BD108F91C69B95216D7E81BB17A96CAB667A101F1887797A5B68E62619CD7488F3AE503098CC9B2CFDA6EA6BD28F87FB676CFBF831DBAD893A1F69" Timestamp="1D66C0C1B251D2D" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="6F7974AB238E36DD9B1F23F8B9114970A03FB39263036C008FE134547DE7B80581E14E8F8BDBD5A37F6BF453AB5BB8B59E8DDF161D202BE6B82B4733EF38A781" Timestamp="1D68832D7B25C10" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -14,8 +14,8 @@
 				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="e2aea0f2d42844eabd2eac3873be29b5" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
 					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="f5cc2360f3164337a1175c41028db489" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
 					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="77815e74847540f19d40b4296b7f206d" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-					<FileNameText Attached="[bool]True" Id="cd5ba5086a244a1389d8ef9369e394b8" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]PV_switch" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
-						<FontSetting FontFamily="Segoe UI" FontSize="6" Id="1e02f00377c7419ba7a7a87f6ae61263" />
+					<FileNameText Attached="[bool]True" Id="cd5ba5086a244a1389d8ef9369e394b8" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Panel Switch" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Segoe UI" FontSize="9" Id="1e02f00377c7419ba7a7a87f6ae61263" />
 					</FileNameText>
 				</IconTemplate>
 			</IconPanel>
@@ -62,18 +62,22 @@
 					<NodeLabel AttachedTo="aecf4d1d90e1451d8e04955455755e05" Bounds="7 7 30 15" Id="95b89ed3e2334dc3b70d2817871324d0" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Array Constant</p.Text>
 					</NodeLabel>
-					<MethodCall Bounds="160 15 40 40" Id="22eaf857877b4490b94ace8b9177cb81" ResolveFailedHint="&quot;C:\\Users\\Mrsan\\Box\\PV Application lab\\02_Программное обеспечение\\02_LabView\\CEPHEI_LocalDriver\\Queued Message Handler.gcomp\\CMD_Iteration.gvi&quot;" Signature="@b455f65ccfba4f1f81682129604bd2a5" Target="Queued Message Handler::CMD_Iteration.gvi" xmlns="http://www.ni.com/MocCommon">
+					<MethodCall Bounds="160 15 40 40" Id="22eaf857877b4490b94ace8b9177cb81" ResolveFailedHint="&quot;C:\\Users\\Mrsan\\OneDrive\\Documents\\GitHub\\CEPHEI_LocalDriver\\LabDriver.gcomp\\VISA Multiple Write.gvi&quot;" Signature="@5093807352d94dd18813b76d18075ae5" Target="Queued Message Handler::VISA Multiple Write.gvi" xmlns="http://www.ni.com/MocCommon">
 						<p.MethodDeclaration>
 							<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 								<Parameter Id="L0" Desc="VISA_IN" />
 								<Parameter Id="L1" Desc="ARRAY_IN" />
 								<Parameter Id="L3" Desc="ERROR_IN" />
+								<Parameter Id="R0" Desc="VISA_OUT" />
+								<Parameter Id="R1" Desc="VISA Answer" />
 								<Parameter Id="R3" Desc="ERROR_OUT" />
 							</MethodDeclaration>
 						</p.MethodDeclaration>
 						<Terminal DataType=":UDR:TagRefnum|NI::VISA::Visa.udr::Instr" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
 						<Terminal DataType="String[]" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 						<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType=":UDR:TagRefnum|NI::VISA::Visa.udr::Instr" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="@2b052884da5b40f094950355e1350eec" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 					</MethodCall>
 					<Wire Id="94e9e47f9e5c4d7291b98b06a468da3f" Joints="N(5076bef6c0e24319bcfd758a91fd0add:2c582345f50b4aaa8fda2a20b5ed09d1)|(4,20) N(22eaf857877b4490b94ace8b9177cb81:L0)|(160,20)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -95,18 +99,22 @@
 							<StringBehavior TextDisplayMode="Default" />
 						</Literal>
 					</ArrayLiteral>
-					<MethodCall Bounds="160 15 40 40" Id="a4eee8e04f09455787cbdbb7e3d0ce68" ResolveFailedHint="&quot;C:\\Users\\Mrsan\\Box\\PV Application lab\\02_Программное обеспечение\\02_LabView\\CEPHEI_LocalDriver\\Queued Message Handler.gcomp\\CMD_Iteration.gvi&quot;" Signature="@b455f65ccfba4f1f81682129604bd2a5" Target="Queued Message Handler::CMD_Iteration.gvi" xmlns="http://www.ni.com/MocCommon">
+					<MethodCall Bounds="160 15 40 40" Id="a4eee8e04f09455787cbdbb7e3d0ce68" ResolveFailedHint="&quot;C:\\Users\\Mrsan\\OneDrive\\Documents\\GitHub\\CEPHEI_LocalDriver\\LabDriver.gcomp\\VISA Multiple Write.gvi&quot;" Signature="@5093807352d94dd18813b76d18075ae5" Target="Queued Message Handler::VISA Multiple Write.gvi" xmlns="http://www.ni.com/MocCommon">
 						<p.MethodDeclaration>
 							<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 								<Parameter Id="L0" Desc="VISA_IN" />
 								<Parameter Id="L1" Desc="ARRAY_IN" />
 								<Parameter Id="L3" Desc="ERROR_IN" />
+								<Parameter Id="R0" Desc="VISA_OUT" />
+								<Parameter Id="R1" Desc="VISA Answer" />
 								<Parameter Id="R3" Desc="ERROR_OUT" />
 							</MethodDeclaration>
 						</p.MethodDeclaration>
 						<Terminal DataType=":UDR:TagRefnum|NI::VISA::Visa.udr::Instr" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
 						<Terminal DataType="String[]" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 						<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType=":UDR:TagRefnum|NI::VISA::Visa.udr::Instr" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="@2b052884da5b40f094950355e1350eec" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 					</MethodCall>
 					<Wire Id="a1bffe342a144661b40882ceb18ca170" Joints="N(c6f08ceb9586466ba0b6c389547b06f7:342ac7369d234d8795ba691db936a2e7)|(4,85) h(151) v(-35) N(a4eee8e04f09455787cbdbb7e3d0ce68:L3)|(160,50)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -233,16 +241,20 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="b455f65ccfba4f1f81682129604bd2a5">
-			<Attributed AttributedType="@44168aa7e80648f59cd89630c0e74dbf">
+		<p.TypeReference TypeId="5093807352d94dd18813b76d18075ae5">
+			<Attributed AttributedType="@8b4f5deb609d43a2917680effc822019">
 				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="44168aa7e80648f59cd89630c0e74dbf">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="CMD_Iteration.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="2b052884da5b40f094950355e1350eec">
+			<VariableArray DereferenceType="@38599b55d1634c4c9f6e4273186e7975" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="8b4f5deb609d43a2917680effc822019">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="VISA Multiple Write.gvi" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
 					<Attributed AttributedType="@d03678b8d3634f7ab8f4da94240dc66f">
 						<AttributeValues>
@@ -259,6 +271,16 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]ERROR_IN" />
 						</AttributeValues>
 					</Attributed>
+					<Attributed AttributedType="@afa5b4fca93d4c9d9a864896da6129df">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]VISA_OUT" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@733dc3d748a84a36ab48db22a6c9db2c">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]VISA Answer" />
+						</AttributeValues>
+					</Attributed>
 					<Attributed AttributedType="@e514662b8b6a49ffb833fe0f7de20c2a">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]ERROR_OUT" />
@@ -266,6 +288,13 @@
 					</Attributed>
 				</Parameters>
 			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="38599b55d1634c4c9f6e4273186e7975">
+			<Attributed AttributedType="@b2ab082def974a4787fb755640b6ae9e">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Queued Message Handler" />
+				</AttributeValues>
+			</Attributed>
 		</p.TypeReference>
 		<p.TypeReference TypeId="d03678b8d3634f7ab8f4da94240dc66f">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType=":UDR:TagRefnum|NI::VISA::Visa.udr::Instr" />
@@ -276,12 +305,29 @@
 		<p.TypeReference TypeId="d1f54a5fa69e4e4d89303da1c9a21619">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Error" />
 		</p.TypeReference>
+		<p.TypeReference TypeId="afa5b4fca93d4c9d9a864896da6129df">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType=":UDR:TagRefnum|NI::VISA::Visa.udr::Instr" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="733dc3d748a84a36ab48db22a6c9db2c">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="@2b052884da5b40f094950355e1350eec" />
+		</p.TypeReference>
 		<p.TypeReference TypeId="e514662b8b6a49ffb833fe0f7de20c2a">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
 		</p.TypeReference>
+		<p.TypeReference TypeId="b2ab082def974a4787fb755640b6ae9e">
+			<Typedef TypedefName="ArduinoReply.gtype" UnderlyingType="@8a8f86b79be84d8ba9c6d3af64e0b567" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="8a8f86b79be84d8ba9c6d3af64e0b567">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Timestamp" DataType="Timestamp" />
+					<Field FieldAccessPolicy="ReadWrite" Name="DATA" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
 	</DataTypeReferenceTable>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.IconModel Target="Queued Message Handler::CMD_Iteration.gvi">
+		<p.IconModel Target="Queued Message Handler::VISA Multiple Write.gvi">
 			<MergeScript>
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 40">
@@ -289,11 +335,11 @@
 							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
 								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-								<FileNameText Attached="[bool]True" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]CMD_Iteration" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
-									<FontSetting FontFamily="Segoe UI" FontSize="6" />
+								<FileNameText Attached="[bool]True" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]VISA Multiple Write" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+									<FontSetting FontFamily="Segoe UI" FontSize="6.75" />
 								</FileNameText>
 							</IconTemplate>
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]Queued Message Handler.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]LabDriver.gcomp" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
 				</MergeItem>
