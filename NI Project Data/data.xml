@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="7CCADC4F01A049165ECCBDC30E364BFD7703B1A5A75FBC33104A605301FA45622ECDC87A3AFBAA8F7DE64E368E565D0F66C5F24FB5442E4B75737823302361E7" Timestamp="1D6821B01759090" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="193325EB4BBBAA0BD57C6114A3221C42D2B6B4A23FF000556F768435431C1B9DAB92741D495C7F75C5A69D12EEBCF7E125434ABA10264C61E6CB651026D71519" Timestamp="1D69DB9D82EE309" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -69,6 +69,24 @@
 					<TDMSGroupDefinition GroupName="Capture 4" Source="Main.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="09/03/2020 17:52:35" xmlns="http://www.ni.com/Data" />
 					<EmbeddedDefinitionReference Id="fcd8f0bc704949ceae2aba1b1832d7ee" ModelDefinitionType="TDMSDataItemDefinition" Name="String Constant">
 						<TDMSDataItemDefinition DataName="String Constant" DataType="String" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="a1108c4c1bfa48b5b644ea06626fe216" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_5">
+				<TDMSRootDefinition StoragePath="Data-2020-10-07 191236 024.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="2ba9486da6c14d8081c4dcc09916f317" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_5">
+					<TDMSGroupDefinition GroupName="Capture 5" Source="Main.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="10/07/2020 19:12:36" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="a52e041545d041f5ab22098023bf9d55" ModelDefinitionType="TDMSDataItemDefinition" Name="Voltage_Graph">
+						<TDMSDataItemDefinition DataName="Voltage_Graph" DataType="Double[]" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="6ae0d40e3fdc4260ac151a450a1462e1" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root_6">
+				<TDMSRootDefinition StoragePath="Data-2020-10-08 212736 912.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="93d5416a4e414b0da97410d427190fdb" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP_6">
+					<TDMSGroupDefinition GroupName="Capture 6" Source="Main.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="10/08/2020 21:27:36" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="58dbe41fbaf844c98d042861de6a07ca" ModelDefinitionType="TDMSDataItemDefinition" Name="Load Reply">
+						<TDMSDataItemDefinition DataName="Load Reply" DataType="String" xmlns="http://www.ni.com/Data" />
 					</EmbeddedDefinitionReference>
 				</EmbeddedDefinitionReference>
 			</EmbeddedDefinitionReference>

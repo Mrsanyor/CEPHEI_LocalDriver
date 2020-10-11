@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="B66E4E6AA42AE6E3179D4DC7F421E371D9AECF57E4FD4060D49FD348D991FDF899BC987731AC81EC10113AB8548B2CE46C97E0ED6EF7E7B10D41E2BC85454FF0" Timestamp="1D68832F7EA1A00" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3776A07F3285431D408DA6A5659EAF9FD95AABDF6DFFA470D8E412D6324E9EDBBBC77676FFF50F373FD5D22F6146832EB3350FB8F3C63002CABD83344D29F220" Timestamp="1D69E5DDA28EFFA" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -53,14 +53,14 @@
 						<Field2>""</Field2>
 					</Cluster>
 				</p.DefaultElementValue>
-				<Cluster BaseName="[string]Cluster Arduino Reply" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@38599b55d1634c4c9f6e4273186e7975" Height="[float]52" Id="7038d829510f4355ad68d60e9f7e0ca7" IsTabStop="[bool]True" Label="[UIModel]2b44daf8fb014e5987fbf5692cc06e98" LabelLinked="[bool]True" TabIndex="[int]0" Width="[float]346" p5:ControlDefinitionChecksum="xcai0NE+iq1cRDv47hvxqmHHeQ7xI87wv78OD4jolUM=" xmlns:p5="http://www.ni.com/PanelCommon">
+				<Cluster BaseName="[string]Cluster Arduino Reply" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@38599b55d1634c4c9f6e4273186e7975" Height="[float]174" Id="7038d829510f4355ad68d60e9f7e0ca7" IsTabStop="[bool]True" Label="[UIModel]2b44daf8fb014e5987fbf5692cc06e98" LabelLinked="[bool]True" TabIndex="[int]0" Width="[float]212" p5:ControlDefinitionChecksum="I+uVhoDTzrga0kU6m0pFIppVZbDfvJeasC6myWUPs90=" xmlns:p5="http://www.ni.com/PanelCommon">
 					<p5:p.TypeDefinitionTargets>
 						<p5:TypeDefinitionTarget TargetName="Queued Message Handler::ArduinoReply.gtype::ControlDefinition" />
 					</p5:p.TypeDefinitionTargets>
-					<TimeStampTextBox BaseName="[string]Timestamp" Height="[float]24" Id="73caa2ae90bb49368d5870062d261fbe" InteractionMode="[TimeStampTextBoxInteractionModes]ReadOnly" Label="[UIModel]38ce718754c245a694c9b950185dcd41" Left="[float]4" Maximum="[PrecisionDateTime]3000-12-31T21:00:00.0Z" Minimum="[PrecisionDateTime]1599-12-31T21:00:00.0Z" TabIndex="[int]0" Top="[float]20" Value="{ClusterBinding FieldName=Timestamp}" Width="[float]176" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-					<p5:Label Height="[float]16" Id="38ce718754c245a694c9b950185dcd41" LabelOwner="[UIModel]73caa2ae90bb49368d5870062d261fbe" Left="[float]4" Text="[string]Timestamp" Top="[float]0" Width="[float]58" />
-					<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="aca7e1c133b447b8b7c9b6042c7d1b21" IsReadOnly="[bool]True" Label="[UIModel]4c97c89572a342f29dd2b7b0769b3afb" Left="[float]191" TabIndex="[int]1" Text="{ClusterBinding FieldName=DATA}" Top="[float]20" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]147" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-					<p5:Label Height="[float]16" Id="4c97c89572a342f29dd2b7b0769b3afb" LabelOwner="[UIModel]aca7e1c133b447b8b7c9b6042c7d1b21" Left="[float]191" Text="[string]DATA" Top="[float]0" Width="[float]28" />
+					<TimeStampTextBox BaseName="[string]Timestamp" Height="[float]24" Id="5471450f4162456a9749fef4828a7770" InteractionMode="[TimeStampTextBoxInteractionModes]ReadOnly" Label="[UIModel]5fe07ace9f3648baa16b144a13535cef" Left="[float]4" Maximum="[PrecisionDateTime]3000-12-31T21:00:00.0Z" Minimum="[PrecisionDateTime]1599-12-31T21:00:00.0Z" TabIndex="[int]0" Top="[float]20" Value="{ClusterBinding FieldName=Timestamp}" Width="[float]200" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p5:Label Height="[float]16" Id="5fe07ace9f3648baa16b144a13535cef" LabelOwner="[UIModel]5471450f4162456a9749fef4828a7770" Left="[float]4" Text="[string]Timestamp" Top="[float]0" Width="[float]58" />
+					<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]100" HorizontalScrollBarVisibility="[ScrollBarVisibility]Auto" Id="bfbc2598799482d8ceb33bf8b75ab94" IsReadOnly="[bool]True" Label="[UIModel]ff8a4543ce6b41af83a2530fcb881e00" Left="[float]4" TabIndex="[int]1" Text="{ClusterBinding FieldName=DATA}" Top="[float]66" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]200" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p5:Label Height="[float]16" Id="ff8a4543ce6b41af83a2530fcb881e00" LabelOwner="[UIModel]bfbc2598799482d8ceb33bf8b75ab94" Left="[float]4" Text="[string]DATA" Top="[float]46" Width="[float]28" />
 					<p5:Label Height="[float]16" Id="2b44daf8fb014e5987fbf5692cc06e98" IsVisualChild="[bool]False" LabelOwner="[UIModel]7038d829510f4355ad68d60e9f7e0ca7" Left="[float]0" Text="[string]Cluster" Top="[float]-20" Width="[float]115" />
 				</Cluster>
 			</ArrayViewer>
@@ -69,7 +69,7 @@
 			<Wire Id="85d2729bf2134a48b9f371ddd4d43dda" Joints="N(224f5bc1ca6a46e2b95367bd326172f5:Value)|(375,615) h(8) B(1) v(-30) h(136) v(25) N(cb855000fc8e487582b8282140a69d3f:Value)|(538,610) B(1) v(5) N(14998537e0e4f7795dbdcc4d60a498f:o0)|(398,620)" xmlns="http://www.ni.com/PlatformFramework" />
 			<ForLoop Bounds="403 598 106 71" DiagramId="a9a92da818bc46358d826f40cee1d1ff" Id="11c9ea66627149808970d0bea71dc46e">
 				<LoopIteration Bounds="5 48 15 15" Id="ef457ead6b1f4cd9a06d97d870ff94da" />
-				<MethodCall Bounds="40 20 40 40" Id="b780cb7def04fc382b0fab63ae57ebc" ResolveFailedHint="&quot;C:\\Users\\Mrsan\\OneDrive\\Documents\\GitHub\\CEPHEI_LocalDriver\\LabDriver.gcomp\\VISA ReadWrite.gvi&quot;" Signature="@5c3a3cec982f45e5835cd61caf01d24a" Target="Queued Message Handler::VISA ReadWrite.gvi" xmlns="http://www.ni.com/MocCommon">
+				<MethodCall Bounds="40 20 40 40" Id="b780cb7def04fc382b0fab63ae57ebc" ResolveFailedHint="&quot;C:\\Users\\Mrsan\\OneDrive\\Documents\\GitHub\\CEPHEI_LocalDriver\\LabDriver.gcomp\\VISA WriteRead.gvi&quot;" Signature="@a39cbe2a917a455c83c8943e285dcbda" Target="Queued Message Handler::VISA WriteRead.gvi" xmlns="http://www.ni.com/MocCommon">
 					<p.MethodDeclaration>
 						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 							<Parameter Id="L0" Desc="VISA_IN" />
@@ -158,7 +158,7 @@
 				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="2440d6ad8d0843049ef0013a971d91df" Label="[UIModel]4857e3685e5c40c8ae31c3af8fd8b9f5" Left="[float]3" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 				<p4:Label Height="[float]16" Id="4857e3685e5c40c8ae31c3af8fd8b9f5" LabelOwner="[UIModel]2440d6ad8d0843049ef0013a971d91df" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
 			</Cluster>
-			<Cluster BaseName="[null]" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="7a81d87599fa43468a6e3ebafd9672ad" Label="[UIModel]4bcea08ee61144b4bea437b5ac008d19" Left="[float]100" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]2" Top="[float]360" Value="{DataItemBinding Id=93e502a3851748879838acb33cbe9688}" Width="[float]176" p4:ControlDefinitionChecksum="J+f/EiASvnzghyjtgi4nEE7z+0udh8Z1+KU2hWC1ppw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+			<Cluster BaseName="[null]" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="7a81d87599fa43468a6e3ebafd9672ad" Label="[UIModel]4bcea08ee61144b4bea437b5ac008d19" Left="[float]308" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]2" Top="[float]160" Value="{DataItemBinding Id=93e502a3851748879838acb33cbe9688}" Width="[float]176" p4:ControlDefinitionChecksum="J+f/EiASvnzghyjtgi4nEE7z+0udh8Z1+KU2hWC1ppw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
 				<p4:p.TypeDefinitionTargets>
 					<p4:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype::ControlDefinition" />
 				</p4:p.TypeDefinitionTargets>
@@ -171,7 +171,7 @@
 			</Cluster>
 			<Label Height="[float]16" Id="84f3613d1f7f4799a654d09c9acec00a" LabelOwner="[UIModel]af3b8fdcfbc04b81b6a09d97d37d3fb3" Left="[float]100" Text="[string]VISA_IN" Top="[float]96" Width="[float]42" xmlns="http://www.ni.com/PanelCommon" />
 			<Label Height="[float]16" Id="12db33246663450990674dd0088a1088" LabelOwner="[UIModel]563424f053124fce8568dcd7a00c3eea" Left="[float]100" Text="[string]ERROR_IN" Top="[float]140" Width="[float]54" xmlns="http://www.ni.com/PanelCommon" />
-			<Label Height="[float]16" Id="4bcea08ee61144b4bea437b5ac008d19" LabelOwner="[UIModel]7a81d87599fa43468a6e3ebafd9672ad" Left="[float]100" Text="[string]ERROR_OUT" Top="[float]340" Width="[float]66" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="4bcea08ee61144b4bea437b5ac008d19" LabelOwner="[UIModel]7a81d87599fa43468a6e3ebafd9672ad" Left="[float]308" Text="[string]ERROR_OUT" Top="[float]140" Width="[float]66" xmlns="http://www.ni.com/PanelCommon" />
 		</NativeFrontPanel>
 		<DataItem CallDirection="Input" CallIndex="0" DataType=":UDR:TagRefnum|NI::VISA::Visa.udr::Instr" Id="fc995d0b1da14a6f9c74517f0485d03f" Name="VISA_IN" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>""</p.DefaultValue>
@@ -227,8 +227,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="5c3a3cec982f45e5835cd61caf01d24a">
-			<Attributed AttributedType="@af6b649bb9334c3fabcf6c147b7cf3c0">
+		<p.TypeReference TypeId="a39cbe2a917a455c83c8943e285dcbda">
+			<Attributed AttributedType="@5c94523b7d9a4692936085cac19cbf9e">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
@@ -241,8 +241,8 @@
 		<p.TypeReference TypeId="b2ab082def974a4787fb755640b6ae9e">
 			<Typedef TypedefName="ArduinoReply.gtype" UnderlyingType="@8a8f86b79be84d8ba9c6d3af64e0b567" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="af6b649bb9334c3fabcf6c147b7cf3c0">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="VISA ReadWrite.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="5c94523b7d9a4692936085cac19cbf9e">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="VISA WriteRead.gvi" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
 					<Attributed AttributedType="@d03678b8d3634f7ab8f4da94240dc66f">
 						<AttributeValues>
@@ -305,7 +305,7 @@
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.IconModel Target="Queued Message Handler::VISA ReadWrite.gvi">
+		<p.IconModel Target="Queued Message Handler::VISA WriteRead.gvi">
 			<MergeScript>
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 40">

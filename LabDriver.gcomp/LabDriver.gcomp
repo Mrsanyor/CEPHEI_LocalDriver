@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="AF7054CED6D8EF563F0F39F79D41C48E4E7363CD2820C69896AC646EB132AC6C9F3B99A08C4A0550F1D545380DBAFD90E46F8EBADF0B79665FF4B7DBAA6B3A71" Timestamp="1D68835D4390128" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="7F762532338E19B308152C91197A4742618A1AD2A352AD51148C5FC3BFEDB80BEE6351887796BB53BB95133F574D3280F4E23A6E767950BCF2A0E5B4055890AE" Timestamp="1D69E6FBC8F40E9" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Native target compiler" Name="http://www.ni.com/LabVIEW.NativeBackEndCompiler" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
@@ -25,11 +25,8 @@
 		<EmbeddedDefinitionReference Id="83995f0f25a041faa0d2561a2261581d" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
 			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
 			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="e892dffc4e0143b7bd75e82f8cc784bd" Name="Queued Message Handler">
-				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="36281ca2186f4ee69865d7b6c0c43e3b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Main.gvi" StoragePath="Main.gvi">
-					<ContentReference Bindings="IAutoCreateContentReference" ContentIdentifier="33db986f366b4c2387e141bbcc0b4e64" Id="e33ebc6bedce4a6f8d5ff7a1501a1098" Name="CCodeNodeDll-33db986f366b4c2387e141bbcc0b4e64" />
-					<ContentReference Bindings="IAutoCreateContentReference" ContentIdentifier="414234826ed449a796566bbf3955db82" Id="ac07c0a03b014e4d84e7a1bd6dbe7f7c" Name="CCodeNodeDll-414234826ed449a796566bbf3955db82" />
-				</SourceFileReference>
-				<SourceFileReference Id="89b80e725ad3445384e4d71caff0b0de" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VISA ReadWrite.gvi" StoragePath="VISA ReadWrite.gvi" />
+				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="36281ca2186f4ee69865d7b6c0c43e3b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Main.gvi" StoragePath="Main.gvi" />
+				<SourceFileReference Id="89b80e725ad3445384e4d71caff0b0de" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VISA WriteRead.gvi" StoragePath="VISA WriteRead.gvi" />
 				<SourceFileReference Bindings="EnvoyManager" Id="fbe25fbe7ae24402b71046ef99bf16c0" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="ArduinoReply.gtype" StoragePath="ArduinoReply.gtype\ArduinoReply.gtype" />
 				<SourceFileReference Id="ba9d9ef1358145f99d089e2b16167daa" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="ResistanceDOalgoritm.gvi" StoragePath="ResistanceDOalgoritm.gvi" />
 				<SourceFileReference Id="6e905807d6a9482aa336c198d76bf72f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VISA Multiple Write.gvi" StoragePath="VISA Multiple Write.gvi" />
@@ -40,6 +37,7 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="463b39f958074743b6aa11c947c49e5e" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="offset past number.gtype" StoragePath="offset past number.gtype\offset past number.gtype" />
 				<SourceFileReference Id="6ca59460df804d3e9e81dda1beedb66a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VISA Reply Parse.gvi" StoragePath="VISA Reply Parse.gvi" />
 				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.GType,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,EnvoyManager" Id="a4e8dc1a38d54c1c94659d8aaffd2905" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Measured Data.gtype" StoragePath="Measured Data.gtype\Measured Data.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="bff479d04ea34d48b21f0bc9379b8195" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Voltage temp.gtype" StoragePath="Voltage temp.gtype\Voltage temp.gtype" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="80134c33b89e46a2b8f6e09d81a9c278" Name="LabDriver.gcomp" NameTracksFileName="True">

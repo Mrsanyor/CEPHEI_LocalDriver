@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="2EAEF950F661EA53B31C8BCB6853E07A47CBB9DC764000BB5DABF69C0FD31041C36851307023D3A1EC16525E51AB13F51097761200DCB6EF85C16E6460D3D2F6" Timestamp="1D69E6FBC8FDD19" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="Double[]" Id="1ae2ab6d88464f53aab96cb06e50e4b7" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="e814fa4d437f44babbc961418a6c5f48" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="fbc9d9ae0e743fe8ddfed95b5e2313f" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="e2da34b7ec0b4caf9b63372b08cbfacb" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="Double[]" Id="8d6969370f5d4104a54c6afa65abfb7e" Name="Voltage temp">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="467fa626859343b28184b91457f28ef4" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="acf32fe9caf240958a0b04200387b9c8" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="580b6e8f28045158daa8e3e2b6097d4" Name="Voltage temp.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="6922c0d4ec274504bb6d63d8985a3536" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Indicator" Id="216b0b16e14403ebd5197a40c193abc" xmlns="http://www.ni.com/MocCommon">
+					<ArrayViewer ArrayElement="[UIModel]7ff3cdd5232e419ab6edc37a90c02ae4" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]126" Id="222dd2a4f644ccb9c8eef2a10f57620" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]ae3cea3888a44a5eaeb4d6fe0cd51d6e" Left="[float]100" Orientation="[SMOrientation]Vertical" Rows="[int]4" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=8d6969370f5d4104a54c6afa65abfb7e}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]111" xmlns="http://www.ni.com/PanelCommon">
+						<p.DefaultElementValue>0x0</p.DefaultElementValue>
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="7ff3cdd5232e419ab6edc37a90c02ae4" IsReadOnly="[bool]True" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					</ArrayViewer>
+					<Label Id="ae3cea3888a44a5eaeb4d6fe0cd51d6e" LabelOwner="[UIModel]222dd2a4f644ccb9c8eef2a10f57620" Left="[float]100" Text="[string]Voltage temp" Top="[float]80" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="ACADE90C3F2D72EECC1D814027A93CA79BB6943A056C6587BE8F7DE4D0812D4908944328F5E664DE78A5D48684E30276F9A63DCB055719374B628616F1DFAC77" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="9362536A2BECF03A370FCB4B4FD72921779C65B6E3B03FF6D7A902BFEEE4CF6A1297AB192DE3F313CE3F21B433ACF00730F2BEA85BA36B838412186FAC995B73" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -209,7 +209,7 @@
 							</ComponentConfiguration>
 						</ComponentDefinition>
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="db71d374a0404ea1869e16b3b1ca003b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="SLC.gvi" StoragePath="LabSyslinkcom\SLC.gvi" />
-						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="df9d2a11d3b146daa223068e575163ea" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function.gvi" StoragePath="Function.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="df9d2a11d3b146daa223068e575163ea" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Test COM Port.gvi" StoragePath="Test COM Port.gvi" />
 					</EmbeddedDefinitionReference>
 					<SourceFileReference Bindings="EnvoyManager,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,{http://www.ni.com/LabVIEW.NativeBackEndCompiler}ComponentExecution_NativeApplication" Id="e195f43803964fb39e917ee1aee9e119" ModelDefinitionType="ComponentDefinition" Name="LabDriver.gcomp" StoragePath="LabDriver.gcomp\LabDriver.gcomp" />
 					<SourceFileReference Bindings="EnvoyManager,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.LibraryComponent,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="3cffd1637cce43fa883fa06ecf80e55c" ModelDefinitionType="ComponentDefinition" Name="Message Queue.gcomp" StoragePath="Message Queue.gcomp\Message Queue.gcomp" />
