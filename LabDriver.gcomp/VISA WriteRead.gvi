@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8151E8DC6AA7979C4C6DBFC14B54208A2D07AB582458CA23D9316133E0E68D6D8E216190D67E50C79AB90734C397384CCC0652EBAC0D7C8FE480FB706B23FCC5" Timestamp="1D69E64563DAF24" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="AA40C7B74E7BE78DB8D8B6F40D197C54D4119A6EACD8A290C7E647B324E94F235375FE0FA05DA81079D6B48A511C8816DF78BB8EED230D5D02B722C7CF486269" Timestamp="1D6A0B08828238A" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -36,14 +36,14 @@
 		</ConnectorPane>
 		<DiagramUnplacedItems Id="ab75ff61e59a49ec891d1d3d1a1a6875" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Id="67b36cd024e24a17874cca29b832b5c3" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0">
-			<Cluster BaseName="[string]Cluster Arduino Reply" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@38599b55d1634c4c9f6e4273186e7975" Height="[float]174" Id="d9a1631c2fe540598dc3838d1f51ad2b" IsTabStop="[bool]True" Label="[UIModel]a93e6e562eb44340bca1480949adad11" LabelLinked="[bool]True" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=e8e8b7c6e2eb401e9d278883c929ab27}" Width="[float]212" p4:ControlDefinitionChecksum="I+uVhoDTzrga0kU6m0pFIppVZbDfvJeasC6myWUPs90=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+			<Cluster BaseName="[string]Cluster Arduino Reply" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@38599b55d1634c4c9f6e4273186e7975" Height="[float]211" Id="d9a1631c2fe540598dc3838d1f51ad2b" IsTabStop="[bool]True" Label="[UIModel]a93e6e562eb44340bca1480949adad11" LabelLinked="[bool]True" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=e8e8b7c6e2eb401e9d278883c929ab27}" Width="[float]354" p4:ControlDefinitionChecksum="+LU9ejF2mz2lliaPABAoMjdndTrkQUbfWxBQjL+azW0=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
 				<p4:p.TypeDefinitionTargets>
 					<p4:TypeDefinitionTarget TargetName="Queued Message Handler::ArduinoReply.gtype::ControlDefinition" />
 				</p4:p.TypeDefinitionTargets>
-				<TimeStampTextBox BaseName="[string]Timestamp" Height="[float]24" Id="ffaac46bfb1a4fc79159871ab5d7297b" InteractionMode="[TimeStampTextBoxInteractionModes]ReadOnly" Label="[UIModel]dd07fbda20347aaaec15a68462fbcac" Left="[float]4" Maximum="[PrecisionDateTime]3000-12-31T21:00:00.0Z" Minimum="[PrecisionDateTime]1599-12-31T21:00:00.0Z" TabIndex="[int]0" Top="[float]20" Value="{ClusterBinding FieldName=Timestamp}" Width="[float]200" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-				<p4:Label Height="[float]16" Id="dd07fbda20347aaaec15a68462fbcac" LabelOwner="[UIModel]ffaac46bfb1a4fc79159871ab5d7297b" Left="[float]4" Text="[string]Timestamp" Top="[float]0" Width="[float]58" />
-				<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]100" HorizontalScrollBarVisibility="[ScrollBarVisibility]Auto" Id="a0a5f8ea8efa4302b92b512a26241c75" IsReadOnly="[bool]True" Label="[UIModel]1f76619e4c214d7786f53a73ac1ddb65" Left="[float]4" TabIndex="[int]1" Text="{ClusterBinding FieldName=DATA}" Top="[float]66" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]200" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-				<p4:Label Height="[float]16" Id="1f76619e4c214d7786f53a73ac1ddb65" LabelOwner="[UIModel]a0a5f8ea8efa4302b92b512a26241c75" Left="[float]4" Text="[string]DATA" Top="[float]46" Width="[float]28" />
+				<TimeStampTextBox BaseName="[string]Timestamp" Height="[float]24" Id="852293d0ffdc41bda5a969de2385f0a9" InteractionMode="[TimeStampTextBoxInteractionModes]ReadOnly" Label="[UIModel]6e59c7e6bba0434581c444ea0de26a12" Left="[float]4" Maximum="[PrecisionDateTime]3000-12-31T21:00:00.0Z" Minimum="[PrecisionDateTime]1599-12-31T21:00:00.0Z" TabIndex="[int]0" Top="[float]20" Value="{ClusterBinding FieldName=Timestamp}" Width="[float]200" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="6e59c7e6bba0434581c444ea0de26a12" LabelOwner="[UIModel]852293d0ffdc41bda5a969de2385f0a9" Left="[float]4" Text="[string]Timestamp" Top="[float]0" Width="[float]58" />
+				<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]137" HorizontalScrollBarVisibility="[ScrollBarVisibility]Auto" Id="397229b3eb544bcca7625b5cea2c0d44" IsReadOnly="[bool]True" Label="[UIModel]ad276bb79e984b039de535ccab4f3206" Left="[float]4" TabIndex="[int]1" Text="{ClusterBinding FieldName=DATA}" Top="[float]66" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]342" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="ad276bb79e984b039de535ccab4f3206" LabelOwner="[UIModel]397229b3eb544bcca7625b5cea2c0d44" Left="[float]4" Text="[string]DATA" Top="[float]46" Width="[float]28" />
 			</Cluster>
 			<Label Height="[float]16" Id="a93e6e562eb44340bca1480949adad11" LabelOwner="[UIModel]d9a1631c2fe540598dc3838d1f51ad2b" Left="[float]100" Text="[string]Arduino_Reply" Top="[float]80" Width="[float]115" xmlns="http://www.ni.com/PanelCommon" />
 		</FrontPanelUnplacedItems>
@@ -327,7 +327,7 @@
 								<BooleanBehavior />
 							</Literal>
 							<Literal Bounds="15 15 135 65" DataType="String" Id="3b31ef5e7b72491a9d6eebc8f9517077" Label="1b558a5e89b44d5f9e249dbffed0d600" xmlns="http://www.ni.com/MocCommon">
-								<p.Data>"No "@OK" response from Arduino. Log of Command/Respinse: "</p.Data>
+								<p.Data>"No "@OK" response from Arduino. Log of Command/Response: "</p.Data>
 								<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 							</Literal>
 							<Literal Bounds="160 70 40 15" DataType="Int32" Id="d48da92fdd3e41ee8a2f4f2e2b945fc3" Label="692aef025c1a4f54b2a7cbc7c6bb64f1" xmlns="http://www.ni.com/MocCommon">
