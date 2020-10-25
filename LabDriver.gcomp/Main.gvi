@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="69B4FC32ACD1ED0C1FEF3B1B5A26B8D036F92E480E4A9CCB707E514C0BC45C10CC6EDF38BE8BE54CD2DA601F8B5DD5EE30ED7775A6ED2CDC74396C2787A202FF" Timestamp="1D6A0BDCE5EE157" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B021100AAD0FDB937D100FD745B08F2043DC4CFEC4BFFED1C608F134A03C2CADCE79F8BF81B96C4766537BFCA23A5D9ECE001519456DF4B06893B132319CBF9D" Timestamp="1D6AA06542F4099" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -595,7 +595,7 @@
 				<ArrayBehavior ElementType="String" IndexEditorWidth="42" VisibleRows="11">
 					<p.DefaultElementValue>*</p.DefaultElementValue>
 				</ArrayBehavior>
-				<Literal Bounds="48 2 184 20" DataType="String" Id="b5f38ed526194d6f835e51d08a20f208">
+				<Literal Bounds="48.2 1.8 184 20" DataType="String" Id="b5f38ed526194d6f835e51d08a20f208">
 					<StringBehavior TextDisplayMode="Default" />
 				</Literal>
 			</ArrayLiteral>
@@ -1916,7 +1916,7 @@
 			<WhileLoop Bounds="-135 130 3239 1220" DiagramId="99" Id="98">
 				<LoopCondition Bounds="3155 520 15 15" Id="100" />
 				<LoopIteration Bounds="15 1185 15 15" Id="101" />
-				<CaseStructure Bounds="92 50 3003 1134" DataType="String" Default="117" Id="108" IgnoreUpperLowerCase="True" Label="119" Selected="a114d33bb1514e10a395f9776aa1f417" UserSelectorBounds="1398 0 208 17">
+				<CaseStructure Bounds="92 50 3003 1134" DataType="String" Default="117" Id="108" IgnoreUpperLowerCase="True" Label="119" Selected="f57f7c3844b245b08c5dfee526389149" UserSelectorBounds="1398 0 208 17">
 					<CaseStructure.Case Bounds="5 5 2993 1124" Id="109" Pattern="&quot;Initialize&quot;">
 						<Wire Id="292" Joints="N(123:109)|(4,70) N(124:109)|(2989,70)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="6364f49a137743d886fe09774984b049" Joints="N(e9d6fc0f525f4ac693c1bdd3b0ea94e9:109)|(4,105) N(c841e00b0704366baa14c124c0e027e:109)|(2989,105)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -4914,13 +4914,13 @@
 								<ArrayLiteral Bounds="48 45 162 54" DataType="String[]" Id="e3fd8a739df147f1895905dfed838a17" xmlns="http://www.ni.com/MocCommon">
 									<p.Data>
 										<Array Lengths="3" IsBinary="True" Compression="GZip">
-											<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMZiBmYwISXA7BrkFhCiYKBspsIEEeMN9DwVjBCCjCglBhClTBDQBpt5ZHTQAAAA==</BinaryElements>
+											<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMZiBmYwISXA7BrkFhCiYKBspsIEFuMN9DwRgkwIJQYArkcwMAI9lWq0wAAAA=</BinaryElements>
 										</Array>
 									</p.Data>
 									<ArrayBehavior ElementType="String" IndexEditorWidth="42" VisibleRows="3">
 										<p.DefaultElementValue>""</p.DefaultElementValue>
 									</ArrayBehavior>
-									<Literal Bounds="48 36 108 15" DataType="String" Id="711fac5dba5a4e7e8474159ddb8f8e96">
+									<Literal Bounds="48 18.8 108 15" DataType="String" Id="711fac5dba5a4e7e8474159ddb8f8e96">
 										<StringBehavior TextDisplayMode="Default" />
 									</Literal>
 								</ArrayLiteral>
@@ -4941,7 +4941,7 @@
 									<ArrayBehavior ElementType="String" IndexEditorWidth="42" VisibleRows="3">
 										<p.DefaultElementValue>""</p.DefaultElementValue>
 									</ArrayBehavior>
-									<Literal Bounds="48 19 160 15" DataType="String" Id="c1a7a31344ed49a08c3f9875e62d4f2c">
+									<Literal Bounds="48.4 18.8 160 15" DataType="String" Id="c1a7a31344ed49a08c3f9875e62d4f2c">
 										<StringBehavior TextDisplayMode="Default" />
 									</Literal>
 								</ArrayLiteral>
@@ -4952,13 +4952,13 @@
 								<ArrayLiteral Bounds="1 45 214 54" DataType="String[]" Id="e1d859ddf65249dd9a361e4539cde504" xmlns="http://www.ni.com/MocCommon">
 									<p.Data>
 										<Array Lengths="3" IsBinary="True" Compression="GZip">
-											<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMZiBmYwISXA7BrkFhCiYKBspsIEEeMN9DwVjBCCjCAhThhqgwVbA0UOYGAMJcWpJOAAAA</BinaryElements>
+											<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMZiBmYwISXA7BrkFhCiYKBspsIEFuMN9DwRgkwAIXUDBVsDRQ5gYAIjS/BE0AAAA=</BinaryElements>
 										</Array>
 									</p.Data>
 									<ArrayBehavior ElementType="String" IndexEditorWidth="42" VisibleRows="3">
 										<p.DefaultElementValue>""</p.DefaultElementValue>
 									</ArrayBehavior>
-									<Literal Bounds="48 36 160 15" DataType="String" Id="c282b4e57d3a4969a5ca30eec4a695ab">
+									<Literal Bounds="47.9 35.8 160 15" DataType="String" Id="c282b4e57d3a4969a5ca30eec4a695ab">
 										<StringBehavior TextDisplayMode="Default" />
 									</Literal>
 								</ArrayLiteral>
@@ -5375,7 +5375,7 @@
 									<ArrayBehavior ElementType="String" IndexEditorWidth="42">
 										<p.DefaultElementValue>""</p.DefaultElementValue>
 									</ArrayBehavior>
-									<Literal Bounds="47.6 2.2 150 15" DataType="String" Id="b592e12c409342f189223b22b6c70a2f">
+									<Literal Bounds="47.9 1.8 150 15" DataType="String" Id="b592e12c409342f189223b22b6c70a2f">
 										<StringBehavior TextDisplayMode="Default" />
 									</Literal>
 								</ArrayLiteral>
@@ -5396,7 +5396,7 @@
 									<ArrayBehavior ElementType="String" IndexEditorWidth="42">
 										<p.DefaultElementValue>""</p.DefaultElementValue>
 									</ArrayBehavior>
-									<Literal Bounds="47.8 2.2 154 15" DataType="String" Id="a21a11524d9146208d1da2f387bc5446">
+									<Literal Bounds="48.2 1.8 154 15" DataType="String" Id="a21a11524d9146208d1da2f387bc5446">
 										<StringBehavior TextDisplayMode="Default" />
 									</Literal>
 								</ArrayLiteral>
@@ -5407,17 +5407,17 @@
 								</Literal>
 								<Wire Id="ef1a03f2883c4ff3a952446311eaf159" Joints="N(611fb4660c4b43d7835c4389a54ba754:Out)|(201,50) h(25) v(-40) N(378d105226c74bd988e7f42e3d1f4196:f117435de3604f9ebcf7470268a8549a)|(231,10)" xmlns="http://www.ni.com/PlatformFramework" />
 							</CaseStructure.Case>
-							<CaseStructure.Case Bounds="5 5 235 65" Id="15f6f9204f1d4ae5a7fdb19a1d52516c" Pattern="&quot;100&quot;">
+							<CaseStructure.Case Bounds="5 5 235 65" Id="15f6f9204f1d4ae5a7fdb19a1d52516c" Pattern="&quot;25&quot;">
 								<ArrayLiteral Bounds="11 20 189 25" DataType="String[]" Id="bf277e45b3643b3941bad9c16bb8713" xmlns="http://www.ni.com/MocCommon">
 									<p.Data>
 										<Array Lengths="1" IsBinary="True" Compression="GZip">
-											<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMEGZjAhLcDgHhvgqWCkampsrcAKCISg8sAAAA</BinaryElements>
+											<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMEGZjAhJcDgHhvgqWCmamytwAcSLxeCsAAAA=</BinaryElements>
 										</Array>
 									</p.Data>
 									<ArrayBehavior ElementType="String" IndexEditorWidth="42">
 										<p.DefaultElementValue>""</p.DefaultElementValue>
 									</ArrayBehavior>
-									<Literal Bounds="47.6 2.2 135 15" DataType="String" Id="b108a3a3a0eb4f5388a3c79f81ffc066">
+									<Literal Bounds="48.4 2.3 135 15" DataType="String" Id="b108a3a3a0eb4f5388a3c79f81ffc066">
 										<StringBehavior TextDisplayMode="Default" />
 									</Literal>
 								</ArrayLiteral>
@@ -5678,7 +5678,7 @@
 						<Wire Id="a9987c53475442d98803ca036d48acc2" Joints="N(126:8c370bc2939543feb12586532a9535ca)|(4,435) h(154) v(-70) N(4ce30540fe2644219fc664e70ff28a93:variant)|(168,365)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="eafe566e08274b70a21f4021d4e7d709" Joints="N(121:8c370bc2939543feb12586532a9535ca)|(4,445) h(128) v(-50) N(4ce30540fe2644219fc664e70ff28a93:error in (no error\))|(168,395)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="c3ec79bb30e94899886f90e612a6fbf5" Joints="N(4ce30540fe2644219fc664e70ff28a93:error out)|(208,395) N(8c696605555e4338a089a0cbffafc200:L3)|(423,395)" xmlns="http://www.ni.com/PlatformFramework" />
-						<CaseStructure Bounds="238 255 145 70" DataType="String" Default="9d8f45eee0504d70b584aa35aa6cd285" Id="2f4ff56ac54d4a0f90d028b457fb0836" Selected="69bbc8140d7a49e89acc129348d6fbd9" UserSelectorBounds="0 0 145 17">
+						<CaseStructure Bounds="238 255 145 70" DataType="String" Default="9d8f45eee0504d70b584aa35aa6cd285" Id="2f4ff56ac54d4a0f90d028b457fb0836" Selected="9d8f45eee0504d70b584aa35aa6cd285" UserSelectorBounds="0 0 145 17">
 							<CaseStructure.Case Bounds="5 5 135 60" Id="9d8f45eee0504d70b584aa35aa6cd285" Pattern="&quot;None&quot;, Default">
 								<Literal Bounds="20 20 90 15" DataType="String" Id="b04880d1deab491093367fbf47451028" xmlns="http://www.ni.com/MocCommon">
 									<p.Data>@SERV 4 0#</p.Data>
@@ -5689,7 +5689,7 @@
 							</CaseStructure.Case>
 							<CaseStructure.Case Bounds="5 5 135 60" Id="559f535dfcbc485db1d9b3d1e52a6b92" Pattern="&quot;Panel 1&quot;">
 								<Literal Bounds="15 20 95 15" DataType="String" Id="60cff093c5b2450393a6ad48ff451b51" xmlns="http://www.ni.com/MocCommon">
-									<p.Data>@SERV 4 10#</p.Data>
+									<p.Data>@SERV 4 60#</p.Data>
 									<StringBehavior TextDisplayMode="Default" />
 								</Literal>
 								<Wire Id="eb9afe748d154340b30296fb87604f86" Joints="N(60cff093c5b2450393a6ad48ff451b51:Out)|(110,25) N(5336da87d6e84588a866e562ae2c7df1:559f535dfcbc485db1d9b3d1e52a6b92)|(131,25)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -5697,7 +5697,7 @@
 							</CaseStructure.Case>
 							<CaseStructure.Case Bounds="5 5 135 60" Id="edd842392c094304a539cb8a6ba2f260" Pattern="&quot;Panel 2&quot;">
 								<Literal Bounds="15 20 95 15" DataType="String" Id="ede2194af2514c72a687457a321fe287" xmlns="http://www.ni.com/MocCommon">
-									<p.Data>@SERV 4 25#</p.Data>
+									<p.Data>@SERV 4 88#</p.Data>
 									<StringBehavior TextDisplayMode="Default" />
 								</Literal>
 								<Wire Id="41cd9033f41a48b3a38538810cf1ad8d" Joints="N(ede2194af2514c72a687457a321fe287:Out)|(110,25) N(5336da87d6e84588a866e562ae2c7df1:edd842392c094304a539cb8a6ba2f260)|(131,25)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -5705,7 +5705,7 @@
 							</CaseStructure.Case>
 							<CaseStructure.Case Bounds="5 5 135 60" Id="d5fcd8fe008148faa5edf37219a95ae5" Pattern="&quot;Panel 3&quot;">
 								<Literal Bounds="10 20 105 15" DataType="String" Id="3c3b4f723f5644b9a9f6289391a631ca" xmlns="http://www.ni.com/MocCommon">
-									<p.Data>@SERV 4 110#</p.Data>
+									<p.Data>@SERV 4 130#</p.Data>
 									<StringBehavior TextDisplayMode="Default" />
 								</Literal>
 								<Wire Id="68590b10c2d145a2aed4a5dfc2c10d9b" Joints="N(3c3b4f723f5644b9a9f6289391a631ca:Out)|(115,25) N(5336da87d6e84588a866e562ae2c7df1:d5fcd8fe008148faa5edf37219a95ae5)|(131,25)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -5713,7 +5713,7 @@
 							</CaseStructure.Case>
 							<CaseStructure.Case Bounds="5 5 135 60" Id="69bbc8140d7a49e89acc129348d6fbd9" Pattern="&quot;Panel 4&quot;">
 								<Literal Bounds="10 20 105 15" DataType="String" Id="8ddbd1405f1841708ad4e955c02100c2" xmlns="http://www.ni.com/MocCommon">
-									<p.Data>@SERV 4 130#</p.Data>
+									<p.Data>@SERV 4 160#</p.Data>
 									<StringBehavior TextDisplayMode="Default" />
 								</Literal>
 								<Wire Id="dec574c9f8248b2bb7f493aba951f2c" Joints="N(8ddbd1405f1841708ad4e955c02100c2:Out)|(115,25) N(5336da87d6e84588a866e562ae2c7df1:69bbc8140d7a49e89acc129348d6fbd9)|(131,25)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -9973,8 +9973,8 @@
 						<NumericText BaseName="[string]Numeric" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="382c15f6657a46d9b41f98697435c1c4" Interval="[int]1" IsReadOnly="[bool]False" Label="[UIModel]d191a6086b8846b99ea70ce51c7c6271" Left="[float]112" Maximum="[int]180" Minimum="[int]0" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]8" Top="[float]155" UnitAnnotation="[string]" Value="{DataItemBinding Id=22a8026dc8c14825954bb3dfc7d127ba}" ValueFormatter="[string]LV:0" ValueType="[Type]Int32" Width="[float]88" />
 						<ComboboxSelector AllowDifferentText="[bool]False" AllowUndefinedValueEntry="[bool]True" BaseName="[string]Combo Box" Enabled="[bool]True" Height="[float]24" Id="2af6bd12ea32439fbe8a7c60083900f9" IsTypeAheadEnabled="[bool]True" Label="[UIModel]56e653287cb8471fb16f333b873da3fd" Left="[float]16" TabIndex="[int]9" Top="[float]257" Value="{DataItemBinding Id=5fed1485c5a847b5b8bb0f76e0149c43}" ValueType="[Type]String" VisualMode="[SelectorVisualMode]ComboBoxStyle" Width="[float]184">
 							<ComboboxSelectorInfo DisplayValue="[string]0" DisplayValueOverride="[string]" Id="32" IsEnabled="[bool]True" Value="[string]0" ValueType="[Type]String" />
-							<ComboboxSelectorInfo DisplayValue="[string]100" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[string]100" ValueType="[Type]String" />
 							<ComboboxSelectorInfo DisplayValue="[string]50" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[string]50" ValueType="[Type]String" />
+							<ComboboxSelectorInfo DisplayValue="[string]100" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[string]100" ValueType="[Type]String" />
 						</ComboboxSelector>
 						<ComboboxSelector AllowDifferentText="[bool]False" AllowUndefinedValueEntry="[bool]True" BaseName="[string]Combo Box" Enabled="[bool]True" Height="[float]24" Id="fb91032cba8b4404a4c65e47a3d459b2" IsTypeAheadEnabled="[bool]True" Label="[UIModel]2db653b185c7405a850a10fd04748c39" Left="[float]16" TabIndex="[int]10" Top="[float]223" Value="{DataItemBinding Id=fc8876fcae264baba69662c5c17bac27}" ValueType="[Type]String" VisualMode="[SelectorVisualMode]ComboBoxStyle" Width="[float]184">
 							<ComboboxSelectorInfo DisplayValue="[string]No Filter" DisplayValueOverride="[string]" Id="32" IsEnabled="[bool]True" Value="[string]No Filter" ValueType="[Type]String" />
@@ -10010,8 +10010,8 @@
 						<NumericText BaseName="[string]Numeric" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="3f1f2db7162c4bd9a82ccaa6b26f3445" Interval="[double]1" IsReadOnly="[bool]True" Label="[UIModel]13a8b0f5f39c434a88e54fa20079343b" Left="[float]503" Maximum="[double]Infinity" Minimum="[double]-Infinity" TabIndex="[int]23" Top="[float]167" Value="{DataItemBinding Id=ddc863514656477f8e4f3b62b8227b23}" Width="[float]72" />
 						<ComboboxSelector AllowDifferentText="[bool]False" AllowUndefinedValueEntry="[bool]True" BaseName="[string]Combo Box" Enabled="[bool]True" Height="[float]24" Id="c26a98c3a93b43e980e976397f1ab030" IsTypeAheadEnabled="[bool]True" Label="[UIModel]7e1657a27e2b4a36b91d036a7a830956" Left="[float]16" TabIndex="[int]24" Top="[float]291" Value="{DataItemBinding Id=49b1cad3a71a48c4bab59e73f1414df9}" ValueType="[Type]String" VisualMode="[SelectorVisualMode]ComboBoxStyle" Width="[float]184">
 							<ComboboxSelectorInfo DisplayValue="[string]0" DisplayValueOverride="[string]" Id="32" IsEnabled="[bool]True" Value="[string]0" ValueType="[Type]String" />
+							<ComboboxSelectorInfo DisplayValue="[string]25" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[string]25" ValueType="[Type]String" />
 							<ComboboxSelectorInfo DisplayValue="[string]50" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[string]50" ValueType="[Type]String" />
-							<ComboboxSelectorInfo DisplayValue="[string]100" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[string]100" ValueType="[Type]String" />
 						</ComboboxSelector>
 						<Button BaseName="[string]TextButton" Content="[string]Set Heating" ContentVisibility="[Visibility]Visible" Enabled="[bool]True" Height="[float]25" Id="d1b320bcff7b4700b7eb8cbe3cf19669" IncludeInCapture="[bool]False" IsMomentary="[bool]False" Label="[UIModel]569ca7632cd4679a99b280c6de593b4" Left="[float]208" Shape="[ButtonShape]Square" TabIndex="[int]25" Top="[float]291" Value="{DataItemBinding Id=c8ade8841fa4b35be98056d76f107f6}" Width="[float]164" />
 						<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="af9314d270b141069031b151fb5b45ea" IsReadOnly="[bool]True" Label="[UIModel]14d610a66cc043f8a7603d8b9251cc84" Left="[float]575" TabIndex="[int]26" Text="{DataItemBinding Id=5d564cfe24cb48ffb89ece994f240ebf}" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]74" TypeToReplace="[bool]False" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]164" />
@@ -10099,13 +10099,13 @@
 				<TabItem Header="[string]Charts" Id="77c5a245f7bd46dba336df3cdcc4053f" Left="[float]0" TabIndex="[int]1" Top="[float]0">
 					<LayoutPanel Height="[float]771" Id="a0f12db601f45e3a8d6ee2aff8e638d" Left="[float]5" Top="[float]25" Width="[float]945">
 						<Chart BaseName="[string]Chart" BorderThickness="[SMThickness]1,1,1,1" ControlResizeMode="[ControlResizeMode]Fixed" DataSource="{DataItemBinding Id=f600c77b0a644c7f9cab77d17e443421}" Enabled="[bool]True" Height="[float]300" Id="62a93a4994754a7f9f3fd0156729a04f" IsAntiAliased="[bool]False" Label="[UIModel]f4ce33c7fa6b4bc88a56dd1f77e6f603" Left="[float]8" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]True" SuppressScaleLayout="[bool]False" TabIndex="[int]0" Top="[float]40" Width="[float]300">
-							<Axis Adjuster="[RangeAdjuster]FitLoosely" DisableMappingChanges="[bool]False" Id="13ba5ff606234aa08e413e6ae27f10e5" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]fa1510b549644004b7a609fe8894689a" MajorGridLines="[UIModel]e097549f623c4dab9617363849101cc8" Orientation="[SMOrientation]Horizontal" Range="[IRange]2600, 3800, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+							<Axis Adjuster="[RangeAdjuster]FitLoosely" DisableMappingChanges="[bool]False" Id="13ba5ff606234aa08e413e6ae27f10e5" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]fa1510b549644004b7a609fe8894689a" MajorGridLines="[UIModel]e097549f623c4dab9617363849101cc8" Orientation="[SMOrientation]Horizontal" Range="[IRange]19900, 21000, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 								<RangeLabeledDivisions Id="fa1510b549644004b7a609fe8894689a">
 									<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm&quot;" />
 								</RangeLabeledDivisions>
 								<GridLines Color="[SMColor]#00ffffff" Id="e097549f623c4dab9617363849101cc8" />
 							</Axis>
-							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" DisableMappingChanges="[bool]False" Id="9a5b617bea1042b6954c16179155492e" IsInverted="[bool]False" Label="[string]Voltage, V" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]bbc49ffe7e8441e9a89a846f2d10d65f" MajorGridLines="[UIModel]91972203cb104893900ca6f6ef4f9acf" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 7, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" DisableMappingChanges="[bool]False" Id="9a5b617bea1042b6954c16179155492e" IsInverted="[bool]False" Label="[string]Voltage, V" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]bbc49ffe7e8441e9a89a846f2d10d65f" MajorGridLines="[UIModel]91972203cb104893900ca6f6ef4f9acf" Orientation="[SMOrientation]Vertical" Range="[IRange]2.37, 2.49, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 								<RangeLabeledDivisions Id="bbc49ffe7e8441e9a89a846f2d10d65f">
 									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
 								</RangeLabeledDivisions>
@@ -10134,13 +10134,13 @@
 							<FontSetting FontFamily="Segoe UI" FontSize="14" Id="b621662193664415a95cbc2fa8ce92e5" xmlns="http://www.ni.com/PlatformFramework" />
 						</Label>
 						<Chart BaseName="[string]Chart" BorderThickness="[SMThickness]1,1,1,1" ControlResizeMode="[ControlResizeMode]Fixed" DataSource="{DataItemBinding Id=d3c1e61174c6454b82953ccdd4780ce0}" Enabled="[bool]True" Height="[float]300" Id="a894c7e1c4fb43b585add742bd009d56" IsAntiAliased="[bool]False" Label="[UIModel]6fcb9dc29eeb423985fcb4a780b9b7b7" Left="[float]327" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]True" SuppressScaleLayout="[bool]False" TabIndex="[int]1" Top="[float]40" Width="[float]300">
-							<Axis Adjuster="[RangeAdjuster]FitLoosely" DisableMappingChanges="[bool]False" Id="8f6caf7ef26a4648aa8243d4c33d98e9" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]ff27eff96a3944418602af8728f52707" MajorGridLines="[UIModel]c1431fc28c5f40bc8438bc4392757087" Orientation="[SMOrientation]Horizontal" Range="[IRange]2600, 3800, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+							<Axis Adjuster="[RangeAdjuster]FitLoosely" DisableMappingChanges="[bool]False" Id="8f6caf7ef26a4648aa8243d4c33d98e9" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]ff27eff96a3944418602af8728f52707" MajorGridLines="[UIModel]c1431fc28c5f40bc8438bc4392757087" Orientation="[SMOrientation]Horizontal" Range="[IRange]19900, 21000, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 								<RangeLabeledDivisions Id="ff27eff96a3944418602af8728f52707">
 									<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm&quot;" FractionalSeconds="0" />
 								</RangeLabeledDivisions>
 								<GridLines Color="[SMColor]#00ffffff" Id="c1431fc28c5f40bc8438bc4392757087" />
 							</Axis>
-							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" DisableMappingChanges="[bool]False" Id="c1c1679ad0a54c94b0424256bfc716d6" IsInverted="[bool]False" Label="[string]Current, mA" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]ffac130f17b24d44b63913165235a84b" MajorGridLines="[UIModel]b0d995ba357f4ffeb102927447ea2714" Orientation="[SMOrientation]Vertical" Range="[IRange]-1, 18, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" DisableMappingChanges="[bool]False" Id="c1c1679ad0a54c94b0424256bfc716d6" IsInverted="[bool]False" Label="[string]Current, mA" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]ffac130f17b24d44b63913165235a84b" MajorGridLines="[UIModel]b0d995ba357f4ffeb102927447ea2714" Orientation="[SMOrientation]Vertical" Range="[IRange]-0.07, 0, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 								<RangeLabeledDivisions Id="ffac130f17b24d44b63913165235a84b">
 									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
 								</RangeLabeledDivisions>
@@ -10169,7 +10169,7 @@
 							<FontSetting FontFamily="Segoe UI" FontSize="14" Id="9aedc95a8ac4440eb5a384da402d803d" xmlns="http://www.ni.com/PlatformFramework" />
 						</Label>
 						<Chart BaseName="[string]Chart" BorderThickness="[SMThickness]1,1,1,1" ControlResizeMode="[ControlResizeMode]Fixed" DataSource="{DataItemBinding Id=a1d56837e9df4e56bbf68657eac8e8bf}" DataSourceType="[Type]Int32" Enabled="[bool]True" Height="[float]300" Id="209af558c477477da9342f7fca22543d" IsAntiAliased="[bool]False" Label="[UIModel]2f8175ce9c03435cae3fd6c92deccfbd" Left="[float]645" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]True" SuppressScaleLayout="[bool]False" TabIndex="[int]2" Top="[float]40" Width="[float]300">
-							<Axis Adjuster="[RangeAdjuster]FitLoosely" DisableMappingChanges="[bool]False" Id="cb06a614e9a340a0aeae0ebc48d7d7c0" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]21ab35a3f4e348609aa01956f9710d24" MajorGridLines="[UIModel]841a296dfb88493ba3c38934aacd467d" Orientation="[SMOrientation]Horizontal" Range="[IRange]2600, 3800, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+							<Axis Adjuster="[RangeAdjuster]FitLoosely" DisableMappingChanges="[bool]False" Id="cb06a614e9a340a0aeae0ebc48d7d7c0" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]21ab35a3f4e348609aa01956f9710d24" MajorGridLines="[UIModel]841a296dfb88493ba3c38934aacd467d" Orientation="[SMOrientation]Horizontal" Range="[IRange]19900, 21000, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 								<RangeLabeledDivisions Id="21ab35a3f4e348609aa01956f9710d24">
 									<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm&quot;" FractionalSeconds="0" />
 								</RangeLabeledDivisions>
@@ -10201,13 +10201,13 @@
 							<FontSetting FontFamily="Segoe UI" FontSize="14" Id="a8326b10f8d144e3859383b77d9c1510" xmlns="http://www.ni.com/PlatformFramework" />
 						</Label>
 						<Chart BaseName="[string]Chart" BorderThickness="[SMThickness]1,1,1,1" ControlResizeMode="[ControlResizeMode]Fixed" DataSource="{DataItemBinding Id=bdfe045d4f81400bb021cb915461128a}" Enabled="[bool]True" Height="[float]250" Id="630bab3d1f24f5284e09bc7d57be498" IsAntiAliased="[bool]False" Label="[UIModel]4c0c29f101f241828aa25b94578a8645" Left="[float]8" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]True" SuppressScaleLayout="[bool]False" TabIndex="[int]3" Top="[float]454" Width="[float]300">
-							<Axis Adjuster="[RangeAdjuster]FitLoosely" DisableMappingChanges="[bool]False" Id="36c0f9d8af4a4b81608a99aba38e50" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]b6ae2f10ea5c42abacb06fa4a46b20a2" MajorGridLines="[UIModel]f0c57ba411484ddb91973395df201262" Orientation="[SMOrientation]Horizontal" Range="[IRange]2600, 3800, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+							<Axis Adjuster="[RangeAdjuster]FitLoosely" DisableMappingChanges="[bool]False" Id="36c0f9d8af4a4b81608a99aba38e50" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]b6ae2f10ea5c42abacb06fa4a46b20a2" MajorGridLines="[UIModel]f0c57ba411484ddb91973395df201262" Orientation="[SMOrientation]Horizontal" Range="[IRange]19900, 21000, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 								<RangeLabeledDivisions Id="b6ae2f10ea5c42abacb06fa4a46b20a2">
 									<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm&quot;" FractionalSeconds="0" />
 								</RangeLabeledDivisions>
 								<GridLines Color="[SMColor]#00ffffff" Id="f0c57ba411484ddb91973395df201262" />
 							</Axis>
-							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" DisableMappingChanges="[bool]False" Id="3277fc50e9ad4965bfcb91983ba2bbdf" IsInverted="[bool]False" Label="[string]Brightness, Lux" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]f53a6d4a562d47e4a009c5e68b0b2890" MajorGridLines="[UIModel]89d43735e1184db1b08d63980b2d7746" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 2400, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" DisableMappingChanges="[bool]False" Id="3277fc50e9ad4965bfcb91983ba2bbdf" IsInverted="[bool]False" Label="[string]Brightness, Lux" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]f53a6d4a562d47e4a009c5e68b0b2890" MajorGridLines="[UIModel]89d43735e1184db1b08d63980b2d7746" Orientation="[SMOrientation]Vertical" Range="[IRange]4, 5, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 								<RangeLabeledDivisions Id="f53a6d4a562d47e4a009c5e68b0b2890">
 									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
 								</RangeLabeledDivisions>
@@ -10236,13 +10236,13 @@
 							<FontSetting FontFamily="Segoe UI" FontSize="14" Id="3bd2e4a30e274c348db9ae4a4401815f" xmlns="http://www.ni.com/PlatformFramework" />
 						</Label>
 						<Chart BaseName="[string]Chart" BorderThickness="[SMThickness]1,1,1,1" ControlResizeMode="[ControlResizeMode]Fixed" DataSource="{DataItemBinding Id=560b9486f78f43f5b9b330027b749bdf}" Enabled="[bool]True" Height="[float]250" Id="c000b7c31d5243d7bf8a3165421d21a0" IsAntiAliased="[bool]False" Label="[UIModel]27b92c888662431990212a73529b73c6" Left="[float]328" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]True" SuppressScaleLayout="[bool]False" TabIndex="[int]4" Top="[float]454" Width="[float]300">
-							<Axis Adjuster="[RangeAdjuster]FitLoosely" DisableMappingChanges="[bool]False" Id="9a8937fc90864cd6a27e4c444053d3ff" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]3e6bb9aeecbe4b178850ba3a7eca6724" MajorGridLines="[UIModel]4dbbadfef5974e859e3e709013116c78" Orientation="[SMOrientation]Horizontal" Range="[IRange]2600, 3800, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+							<Axis Adjuster="[RangeAdjuster]FitLoosely" DisableMappingChanges="[bool]False" Id="9a8937fc90864cd6a27e4c444053d3ff" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]3e6bb9aeecbe4b178850ba3a7eca6724" MajorGridLines="[UIModel]4dbbadfef5974e859e3e709013116c78" Orientation="[SMOrientation]Horizontal" Range="[IRange]19900, 21000, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 								<RangeLabeledDivisions Id="3e6bb9aeecbe4b178850ba3a7eca6724">
 									<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm&quot;" FractionalSeconds="0" />
 								</RangeLabeledDivisions>
 								<GridLines Color="[SMColor]#00ffffff" Id="4dbbadfef5974e859e3e709013116c78" />
 							</Axis>
-							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" DisableMappingChanges="[bool]False" Id="7286abdc94cb4e119b36d74e86930b65" IsInverted="[bool]False" Label="[string]Temperature, Grad" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]d81c0a4349694c7ab1a80236d057f589" MajorGridLines="[UIModel]e64a3fbff7ff41f48f9dedeb331e596d" Orientation="[SMOrientation]Vertical" Range="[IRange]24, 32, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+							<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" DisableMappingChanges="[bool]False" Id="7286abdc94cb4e119b36d74e86930b65" IsInverted="[bool]False" Label="[string]Temperature, Grad" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]d81c0a4349694c7ab1a80236d057f589" MajorGridLines="[UIModel]e64a3fbff7ff41f48f9dedeb331e596d" Orientation="[SMOrientation]Vertical" Range="[IRange]24.060000000000002, 24.25, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 								<RangeLabeledDivisions Id="d81c0a4349694c7ab1a80236d057f589">
 									<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
 								</RangeLabeledDivisions>
