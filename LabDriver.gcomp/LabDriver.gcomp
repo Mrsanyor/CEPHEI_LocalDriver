@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="7F762532338E19B308152C91197A4742618A1AD2A352AD51148C5FC3BFEDB80BEE6351887796BB53BB95133F574D3280F4E23A6E767950BCF2A0E5B4055890AE" Timestamp="1D69E6FBC8F40E9" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="625F39E6DAF7084F1428FFEE65E0E71CF0DD3993221DDB60D5959DE402125FD476B55C26D3C3D624B31F45F305D41B1BC6230C7C0E679B4332312CA1CB077A45" Timestamp="1D6AB5735DE926C" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Native target compiler" Name="http://www.ni.com/LabVIEW.NativeBackEndCompiler" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
@@ -38,6 +38,8 @@
 				<SourceFileReference Id="6ca59460df804d3e9e81dda1beedb66a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VISA Reply Parse.gvi" StoragePath="VISA Reply Parse.gvi" />
 				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.GType,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,EnvoyManager" Id="a4e8dc1a38d54c1c94659d8aaffd2905" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Measured Data.gtype" StoragePath="Measured Data.gtype\Measured Data.gtype" />
 				<SourceFileReference Bindings="EnvoyManager" Id="bff479d04ea34d48b21f0bc9379b8195" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Voltage temp.gtype" StoragePath="Voltage temp.gtype\Voltage temp.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="1dbb9a62e434423dbad3dcdd31b748bc" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="TempSensor IR.gtype" StoragePath="TempSensor IR.gtype\TempSensor IR.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="f36c28d8c1e743a19a08a6833c96caf5" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="TempSensor IR_2.gtype" StoragePath="TempSensor IR_2.gtype\TempSensor IR_2.gtype" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="80134c33b89e46a2b8f6e09d81a9c278" Name="LabDriver.gcomp" NameTracksFileName="True">

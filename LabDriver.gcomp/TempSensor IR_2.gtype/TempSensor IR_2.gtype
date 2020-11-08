@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="AF5033ABEC35BD585AA6610CEE74FD5974A609D0823AD14691EC8FF21618A1B97D9537D10F53D3457CA6376660E2D54BD74E72B012A9C7448CC1268217CF21DE" Timestamp="1D6AB5736803791" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="Double" Id="21887bb8e21b4f2fbae1984b66d0e99f" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="8781c8086b00486d9746573ebcad7a65" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="24acfe8688a543aca749a84455e48424" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="aa91a8011e70416eb2fe91887e1a1f65" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="Double" Id="41b040e948234720b13d2e0a7cddc2df" Name="TempSensor IR">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="eab2d607f3404e7cafbfa16334e81cba" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="8190b047796f40b19b905e54e2493196" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="40a6583134644bbebbf5878051cedf50" Name="TempSensor IR_2.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="754490179c29465a930616917ceac5d4" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Indicator" Id="3daf01e208184570bb76bdb82f6269ff" xmlns="http://www.ni.com/MocCommon">
+					<NumericText BaseName="[string]Numeric" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="72f6a309e2ca4f5f847dd11f9bb26c1e" Interval="[double]1" IsReadOnly="[bool]True" Label="[UIModel]d35e14fb3ecc418ba6ad697e911d0c2e" Left="[float]100" Maximum="[double]Infinity" Minimum="[double]-Infinity" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=41b040e948234720b13d2e0a7cddc2df}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="d35e14fb3ecc418ba6ad697e911d0c2e" LabelOwner="[UIModel]72f6a309e2ca4f5f847dd11f9bb26c1e" Left="[float]100" Text="[string]TempSensor IR" Top="[float]80" Width="[float]79" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
